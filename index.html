@@ -41,7 +41,6 @@
 <script type="text/javascript" src="index_files/jquery_003.js"></script>
 <script type="text/javascript" src="index_files/set.js"></script>
 <script type="text/javascript" src="index_files/html.js"></script>
-<script type="text/javascript" src="index_files/showcase.js"></script>
 <script type="text/javascript" src="index_files/bootstrap.js"></script>
 <script type="text/javascript" src="index_files/menu.js"></script>
 <script type="text/javascript">
@@ -75,6 +74,55 @@ gapr_c[4648] = "rgba(255,255,255,.20)";
 menu_position[4648] = "fixed";
     //-->
 </script>
+
+<script type="text/javascript">
+            var picPaths = ['images/ffxiv_banner.png','images/swtor_banner.png','images/wow_banner.png'];
+            var curPic = -1;
+            //preload the images for smooth animation
+            var imgO = new Array();
+            for(i=0; i < picPaths.length; i++) {
+                imgO[i] = new Image();
+                imgO[i].src = picPaths[i];
+            }
+
+            function swapImage() {
+                curPic = (++curPic > picPaths.length-1)? 0 : curPic;
+                imgCont.src = imgO[curPic].src;
+                setTimeout(swapImage,5000);
+            }
+
+            window.onload=function() {
+                imgCont = document.getElementById('imgBanner');
+                swapImage();
+            }
+</script>
+
+<script>
+var texts = ["Star Wars: The Old Republic", "World of Warcraft", "Final Fantasy XIV: A Realm Reborn"];
+var count = 0;
+function changeText() {
+    $("#example").text(texts[count]);
+    count < 3 ? count++ : count = 0;
+}
+setInterval(changeText, 5000);
+</script>
+
+<script>
+jQuery(function () {
+    var $els = $('div[id^=quote]'),
+        i = 0,
+        len = $els.length;
+
+    $els.slice(1).hide();
+    setInterval(function () {
+        $els.eq(i).fadeOut(function () {
+            i = (i + 1) % len
+            $els.eq(i).fadeIn();
+        })
+    }, 5000)
+})
+</script>
+
 <script type="text/javascript" src="index_files/jstorage.js"></script>
 <script type="text/javascript" src="index_files/date.js"></script>
 <script type="text/javascript" src="index_files/json.js"></script>
@@ -7681,24 +7729,20 @@ Container minimized. <a href="javascript:;">Expand</a>
 <div class="m_showcase" id="m_showcase_3432267">
 <div class="m_showcase_view" style="min-height:250">
 <div class="m_showcase_img" style="height: 250px;">
-<a href="apply.html"><img class="m_showcase_img" src="images/ffxiv_banner.png" id="m_showcase_img_3432267_0" style="display: inline; width: 100%; left: -1039px;"></a><a href="apply.html"><img class="m_showcase_img" src="images/swtor_banner.png" id="m_showcase_img_3432267_1" style="width: 100%; left: 0px; display: inline;"></a><a href="apply.html"><img class="m_showcase_img" src="images/wow_banner.png" id="m_showcase_img_3432267_2" style="width: 100%; left: -1039px; display: inline;"></a></div>
+<a href="apply.html">
+<img id="imgBanner" src="" alt="" />
+</a>
+</div>
 <div class="m_showcase_bar ">
-<a href="apply.html"><h3 class="m_showcase_title" style="font-size: 18px;">Star Wars: The Old Republic</h3></a>
-<p class="m_showcase_description">Join us on Star Forge.</p>
+<a href="apply.html"><h3 class="m_showcase_title" style="font-size: 18px;"><span id="example">Final Fantasy XIV: A Realm Reborn</span></h3></a>
+<p class="m_showcase_description"><div>
+  <div id="quote1">&nbsp;&nbsp;&nbsp;Join us on Leviathan.</div>
+  <div id="quote2">&nbsp;&nbsp;&nbsp;Join us on Star Forge.</div>
+  <div id="quote3">&nbsp;&nbsp;&nbsp;Join us on Zul'jin.</div>
+</div></p>
 </div>
-<a class="m_showcase_prev button" href="javascript:void(0);" style="top: 70px;"></a>
-<a class="m_showcase_next button" href="javascript:void(0);" style="top: 70px;"></a>
 </div>
 </div>
-<script>
-	$(document).ready(function() {		Module_Showcase.init(3432267, [{"img":"images\/ffxiv_banner.png","title":"Final Fantasy XIV: A Realm Reborn","description":"Join us on Leviathan.","url":"apply.html","new_window":0},{"img":"images\/swtor_banner.png","title":"Star Wars: The Old Republic","description":"Join us on Star Forge.","url":"apply.html","new_window":0},{"img":"images\/wow_banner.png","title":"World of Warcraft","description":"Join us on Zul'jin.","url":"apply.html","new_window":0}]);
-		Module_Showcase.Slideshow(
-			"3432267",
-			"250",
-			"slide",
-			"7"
-		);
-	});</script>
  </div>
 </div>
 </div> </td>
