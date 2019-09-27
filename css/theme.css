@@ -1,4 +1,4 @@
-body { background-attachment:fixed;color:#c3c5c7;background-repeat:no-repeat;background-position:top;background-image:url("https://assets-cloud.enjin.com/themes/1332854982_bg1.jpg");background-color:#000000; }
+body { background-attachment:fixed;color:#c3c5c7;background-repeat:no-repeat;background-position:top;background-image:url("../images/background.jpg");background-color:#000000; }
 #page-wrap { background-attachment:fixed;background-repeat:no-repeat;font-size:12px;background-color:transparent;background-position:center;color:#c3c5c7;font-family:Tahoma; }
 a { color:#8cbbd4; }
 .page-outer-left { background-repeat:repeat-y;background-color:transparent;left:0px;background-position:left;width:0px; }
@@ -13,27 +13,27 @@ a:hover, a:focus { color:#ffffff; }
 .container.with-header .container_header .header_text_text { text-transform:none;font-family:Tahoma;font-weight:bold;padding-top:9px;color:#ffffff;font-size:13px; }
 .container_header .title .mask { margin-left:10px;text-align:left;margin-right:20px; }
 .container.with-header .container_header { height:30px;background-color:transparent; }
-.container.with-header .container_header .left { background-image:url("https://assets-cloud.enjin.com/themes/1306667975_container-top2.png"); }
-.container.with-header .container_header .right { background-image:url("https://assets-cloud.enjin.com/themes/1306667975_container-top2.png"); }
-.container.with-header.first .container_header .left { background-image:url("https://assets-cloud.enjin.com/themes/1306667980_container-top2.png"); }
-.container.with-header.first .container_header .right { background-image:url("https://assets-cloud.enjin.com/themes/1306667980_container-top2.png"); }
+.container.with-header .container_header .left { background-image:url("../images/container-top2.png"); }
+.container.with-header .container_header .right { background-image:url("../images/container-top2.png"); }
+.container.with-header.first .container_header .left { background-image:url("../images/container-top2.png"); }
+.container.with-header.first .container_header .right { background-image:url("../images/container-top2.png"); }
 .container.with-footer .container_footer { height:4px;background-color:transparent;text-align:center; }
 .container.with-footer .container_footer .footer_text_text { padding-right:19px;font-size:11px;padding-left:19px;font-family:Arial;padding-top:6px;color:#ffffff; }
 .container.with-footer .container_footer .footer_text_text a { color:#ffffff; }
-.container.with-footer .container_footer .left { background-image:url("https://assets-cloud.enjin.com/themes/1306668831_container-footer.png"); }
-.container.with-footer .container_footer .right { background-image:url("https://assets-cloud.enjin.com/themes/1306668831_container-footer.png"); }
-.container.with-footer .container_footer .footer_text_left { background-image:url("https://assets-cloud.enjin.com/themes/1265941249_icon.png"); }
-.container.with-footer .container_footer .footer_text_right { background-image:url("https://assets-cloud.enjin.com/themes/1265941249_icon.png"); }
+.container.with-footer .container_footer .left { background-image:url("../images/container-footer.png"); }
+.container.with-footer .container_footer .right { background-image:url("../images/container-footer.png"); }
+.container.with-footer .container_footer .footer_text_left { background-image:url("../images/icon.png"); }
+.container.with-footer .container_footer .footer_text_right { background-image:url("../images/icon.png"); }
 .container .container_header { height:2px;background-color:transparent; }
-.container .container_header .left { background-image:url("https://assets-cloud.enjin.com/themes/1306710975_topedge.png"); }
-.container .container_header .right { background-image:url("https://assets-cloud.enjin.com/themes/1306710975_topedge.png"); }
-.container .container_footer .left { background-image:url("https://assets-cloud.enjin.com/themes/1306668844_container-footer.png"); }
-.container .container_footer .right { background-image:url("https://assets-cloud.enjin.com/themes/1306668844_container-footer.png"); }
+.container .container_header .left { background-image:url("../images/topedge.png"); }
+.container .container_header .right { background-image:url("../images/topedge.png"); }
+.container .container_footer .left { background-image:url("../images/container-footer.png"); }
+.container .container_footer .right { background-image:url("../images/container-footer.png"); }
 .container .container_footer { background-color:transparent;height:4px; }
-.container .container_body .container_left { background-image:url("https://assets-cloud.enjin.com/themes/1306668708_left-container-edge.png");width:2px;background-color:transparent; }
-.container .container_body .container_right { background-image:url("https://assets-cloud.enjin.com/themes/1306668127_right-container-edge.png");width:3px;background-color:transparent; }
+.container .container_body .container_left { background-image:url("../images/left-container-edge.png");width:2px;background-color:transparent; }
+.container .container_body .container_right { background-image:url("../images/right-container-edge.png");width:3px;background-color:transparent; }
 .container .container_body { padding-right:3px;padding-left:2px; }
-.container .container_content { background-position:top left;background-image:url("https://assets-cloud.enjin.com/themes/1306376015_container-bg.png");background-repeat:repeat;background-color:transparent; }
+.container .container_content { background-position:top left;background-image:url("../images/container-bg.png");background-repeat:repeat;background-color:transparent; }
 .module { background-attachment:fixed;background-repeat:repeat-x;border-color:#030303;background-position:center;background-color:transparent; }
 .container .module { border-right-color:#273133;border-bottom-color:#273133; }
 .input-text { padding-right:6px;border-color:#646c70;padding-left:6px;padding-top:4px;background-color:#000000;padding-bottom:4px; }
@@ -46,81 +46,81 @@ a:hover, a:focus { color:#ffffff; }
 .element_smallbutton input, .element_smallbutton .button_block { padding-right:7px;height:27px;padding-left:7px;color:#8cbbd4;padding-top:-4px;line-height:27px; }
 .element_button input, .element_button .button_block { padding-top:-4px;color:#8cbbd4;line-height:29px;padding-left:7px;height:29px;padding-right:7px; }
 .element_bigbutton input, .element_bigbutton .button_block { color:#8cbbd4;line-height:33px;padding-left:9px;padding-top:-3px;height:33px;padding-right:9px; }
-.element_button .l { background-image:url("https://assets-cloud.enjin.com/themes/1306668587_medium-button.png"); }
-.element_button .r { background-image:url("https://assets-cloud.enjin.com/themes/1306668587_medium-button.png"); }
-.element_smallbutton .l { background-image:url("https://assets-cloud.enjin.com/themes/1306670678_small-button.png"); }
-.element_smallbutton .r { background-image:url("https://assets-cloud.enjin.com/themes/1306670678_small-button.png"); }
-.element_bigbutton .l { background-image:url("https://assets-cloud.enjin.com/themes/1306670828_large-button.png"); }
-.element_bigbutton .r { background-image:url("https://assets-cloud.enjin.com/themes/1306670828_large-button.png"); }
+.element_button .l { background-image:url("../images/medium-button.png"); }
+.element_button .r { background-image:url("../images/medium-button.png"); }
+.element_smallbutton .l { background-image:url("../images/small-button.png"); }
+.element_smallbutton .r { background-image:url("../images/small-button.png"); }
+.element_bigbutton .l { background-image:url("../images/large-button.png"); }
+.element_bigbutton .r { background-image:url("../images/large-button.png"); }
 .element_smalltitle { line-height:28px;height:27px;color:#ffffff;background-color:transparent; }
 .element_title { line-height:35px;color:#ffffff;height:34px;background-color:transparent; }
-.element_smalltitle .left { background-image:url("https://assets-cloud.enjin.com/themes/1306381721_regular-title.png"); }
-.element_smalltitle .right { background-image:url("https://assets-cloud.enjin.com/themes/1306381721_regular-title.png"); }
-.element_title .left { background-image:url("https://assets-cloud.enjin.com/themes/1306384171_large-title.png"); }
-.element_title .right { background-image:url("https://assets-cloud.enjin.com/themes/1306384171_large-title.png"); }
+.element_smalltitle .left { background-image:url("../images/regular-title.png"); }
+.element_smalltitle .right { background-image:url("../images/regular-title.png"); }
+.element_title .left { background-image:url("../images/large-title.png"); }
+.element_title .right { background-image:url("../images/large-title.png"); }
 .element_smalltitle .title { margin-left:7px;margin-right:7px; }
 .element_title .title { margin-right:9px;margin-left:9px; }
-.element_progressbar .left { background-image:url("https://assets-cloud.enjin.com/themes/1306451990_barbg.png"); }
-.element_progressbar .right { background-image:url("https://assets-cloud.enjin.com/themes/1306451990_barbg.png"); }
-.element_progressbar .current .cleft { background-image:url("https://assets-cloud.enjin.com/themes/1306711064_bar.png"); }
-.element_progressbar .current .cright { background-image:url("https://assets-cloud.enjin.com/themes/1306711064_bar.png"); }
+.element_progressbar .left { background-image:url("../images/barbg.png"); }
+.element_progressbar .right { background-image:url("../images/barbg.png"); }
+.element_progressbar .current .cleft { background-image:url("../images/bar.png"); }
+.element_progressbar .current .cright { background-image:url("../images/bar.png"); }
 .element_progressbar { border-color:transparent;line-height:29px;color:#000000;background-color:transparent;height:29px; }
 .element_progressbar .current { background-color:transparent; }
-.m_header .tl { background-image:url("https://assets-cloud.enjin.com/themes/1306669353_header.png"); }
-.m_header .tr { background-image:url("https://assets-cloud.enjin.com/themes/1306669353_header.png"); }
-.m_header .bl { background-image:url("https://assets-cloud.enjin.com/themes/1306669353_header.png"); }
-.m_header .br { background-image:url("https://assets-cloud.enjin.com/themes/1306669353_header.png"); }
+.m_header .tl { background-image:url("../images/header.png"); }
+.m_header .tr { background-image:url("../images/header.png"); }
+.m_header .bl { background-image:url("../images/header.png"); }
+.m_header .br { background-image:url("../images/header.png"); }
 .m_header { border-color:transparent;padding-left:3px;background-color:transparent;padding-bottom:3px;border-width:0px;padding-right:3px;padding-top:3px; }
 .m_hmenu { height:38px;background-color:transparent; }
-.m_hmenu .bg.left { background-image:url("https://assets-cloud.enjin.com/themes/1306667260_menubut2.png"); }
-.m_hmenu .bg.right { background-image:url("https://assets-cloud.enjin.com/themes/1306667260_menubut2.png"); }
+.m_hmenu .bg.left { background-image:url("../images/headermenubut2.png"); }
+.m_hmenu .bg.right { background-image:url("../images/headermenubut2.png"); }
 .m_hmenu .buttons { padding-left:3px;top:4px;padding-right:2px; }
 .m_hmenu .button { padding-left:20px;color:#8cbbd4;background-color:transparent;line-height:28px;padding-right:20px;font-size:14px;font-weight:normal;height:29px; }
 .m_hmenu a:hover .button { color:#ffffff;background-color:transparent; }
 .m_hmenu a:focus .button { color:#ffffff;background-color:transparent; }
-.m_hmenu .b.left { background-image:url("https://assets-cloud.enjin.com/themes/1306667383_div.png"); }
-.m_hmenu .b.right { background-image:url("https://assets-cloud.enjin.com/themes/1306667383_div.png"); }
-.m_hmenu a:hover .b.left { background-image:url("https://assets-cloud.enjin.com/themes/1306669207_div2.png"); }
-.m_hmenu a:hover .b.right { background-image:url("https://assets-cloud.enjin.com/themes/1306669207_div2.png"); }
-.m_hmenu a:focus .b.left { background-image:url("https://assets-cloud.enjin.com/themes/1306669207_div2.png"); }
-.m_hmenu a:focus .b.right { background-image:url("https://assets-cloud.enjin.com/themes/1306669207_div2.png"); }
+.m_hmenu .b.left { background-image:url("../images/div.png"); }
+.m_hmenu .b.right { background-image:url("../images/div.png"); }
+.m_hmenu a:hover .b.left { background-image:url("../images/div2.png"); }
+.m_hmenu a:hover .b.right { background-image:url("../images/div2.png"); }
+.m_hmenu a:focus .b.left { background-image:url("../images/div2.png"); }
+.m_hmenu a:focus .b.right { background-image:url("../images/div2.png"); }
 .m_hmenu .cap { width:0px;height:29px; }
 .m_vmenu .button { height:27px;border:1px solid;border-color:#1c1c1c;background-color:transparent;line-height:27px;margin-bottom:-1px; }
 .m_vmenu a:hover .button { border-color:transparent;background-color:transparent; }
 .m_vmenu a:focus .button { border-color:transparent;background-color:transparent; }
 .m_vmenu .button .mask { margin-left:7px;margin-right:7px; }
-.contentbox .block-container .he.l { background-image:url("https://assets-cloud.enjin.com/themes/1306386180_content-left-edge.png"); }
-.contentbox .block-container .he.r { background-image:url("https://assets-cloud.enjin.com/themes/1306669754_right_content_edge.png"); }
-.contentbox .block-container .he.bl { background-image:url("https://assets-cloud.enjin.com/themes/1306669690_content_bottom.png"); }
-.contentbox .block-container .he.br { background-image:url("https://assets-cloud.enjin.com/themes/1306669690_content_bottom.png"); }
+.contentbox .block-container .he.l { background-image:url("../images/content-left-edge.png"); }
+.contentbox .block-container .he.r { background-image:url("../images/right_content_edge.png"); }
+.contentbox .block-container .he.bl { background-image:url("../images/content_bottom.png"); }
+.contentbox .block-container .he.br { background-image:url("../images/content_bottom.png"); }
 .contentbox .block-title { background-color:transparent;border:0px;border-color:transparent;color:#ffffff;height:39px; }
 .contentbox .block-container { padding-bottom:2px;padding-left:2px;background-color:#030303;padding-top:1px;border:0px;border-color:transparent;padding-right:2px; }
 .contentbox .block-title .text { padding-top:9px;font-weight:normal;font-size:14px; }
 .contentbox .block-title .text .mask { margin-left:10px; }
 .contentbox .block-title .text-right { margin-right:11px;font-size:14px;padding-top:11px; }
-.contentbox .block-title .left { background-image:url("https://assets-cloud.enjin.com/themes/1306670542_container-title2.png"); }
-.contentbox .block-title .right { background-image:url("https://assets-cloud.enjin.com/themes/1306670542_container-title2.png"); }
+.contentbox .block-title .left { background-image:url("../images/container-title2.png"); }
+.contentbox .block-title .right { background-image:url("../images/container-title2.png"); }
 .m_forum .contentbox .h { height:26px;border-right:0px;border-right-color:transparent;background-color:#090c0f;border-left:0px;border-left-color:transparent; }
 .m_forum .contentbox .h.alt { background-color:#0b0f12;border-left:1px solid;border-left-color:#11161c;border-right:1px solid;border-right-color:#11161c; }
 .m_forum .contentbox .c { border-bottom:1px solid;border-bottom-color:#000000;border-top:1px solid;border-top-color:#2c373d;border-right:0px;border-right-color:transparent;background-color:#02060a;border-left:0px;border-left-color:transparent; }
 .m_forum .contentbox .c.alt { border-right:1px solid;border-right-color:#11161c;border-left:1px solid;border-left-color:#11161c;background-color:#090c0f; }
-.m_forum .contentbox .small-cells .c { background-image:url("https://assets-cloud.enjin.com/themes/1306392421_shade-down.png");background-repeat:repeat-x;background-position:top left; }
-.m_forum .contentbox .small-cells .c.alt { background-repeat:repeat-x;background-image:url("https://assets-cloud.enjin.com/themes/1306390839_shade1.png");background-position:bottom left; }
-.m_forum .contentbox .large-cells .c { background-image:url("https://assets-cloud.enjin.com/themes/1306453843_shade-down.png");background-position:top left;background-repeat:repeat-x; }
-.m_forum .contentbox .large-cells .c.alt { background-repeat:repeat-x;background-position:bottom;background-image:url("https://assets-cloud.enjin.com/themes/1306453921_shade1.png"); }
+.m_forum .contentbox .small-cells .c { background-image:url("../images/shade-down.png");background-repeat:repeat-x;background-position:top left; }
+.m_forum .contentbox .small-cells .c.alt { background-repeat:repeat-x;background-image:url("../images/shade1.png");background-position:bottom left; }
+.m_forum .contentbox .large-cells .c { background-image:url("../images/shade-down.png");background-position:top left;background-repeat:repeat-x; }
+.m_forum .contentbox .large-cells .c.alt { background-repeat:repeat-x;background-position:bottom;background-image:url("../images/shade1.png"); }
 .m_forum .contentbox .h.alt.alt2 { border-right:1px solid;border-right-color:#11161c;background-color:#0b0f12;border-left:1px solid;border-left-color:#11161c; }
 .m_forum .contentbox .c.alt.alt2 { border-left:1px solid;border-left-color:#11161c;background-color:#090c0f;border-right:1px solid;border-right-color:#11161c; }
 .element_avatar.simple { background-color:#000000;border:1px solid;border-color:#4c5a61; }
 .element_avatar.image { padding-left:3px;padding-top:3px;padding-right:3px;padding-bottom:3px; }
-.element_avatar.image .a_tl { background-image:url("https://assets-cloud.enjin.com/themes/1306710903_avatar-shell.png"); }
-.element_avatar.image .a_tr { background-image:url("https://assets-cloud.enjin.com/themes/1306710903_avatar-shell.png"); }
-.element_avatar.image .a_bl { background-image:url("https://assets-cloud.enjin.com/themes/1306710903_avatar-shell.png"); }
-.element_avatar.image .a_br { background-image:url("https://assets-cloud.enjin.com/themes/1306710903_avatar-shell.png"); }
+.element_avatar.image .a_tl { background-image:url("../images/avatar-shell.png"); }
+.element_avatar.image .a_tr { background-image:url("../images/avatar-shell.png"); }
+.element_avatar.image .a_bl { background-image:url("../images/avatar-shell.png"); }
+.element_avatar.image .a_br { background-image:url("../images/avatar-shell.png"); }
 .tabbox .block-wrap { border:1px solid;border-color:#000000; }
 .tabbox .block { background-repeat:no-repeat;background-attachment:scroll;border:1px solid;border-color:#455257;background-color:#07080a;background-position:top left; }
 .tabbox .menu .tab-inner { background-color:#2a3438; }
 .tabbox .menu .tab.selected { border-top:1px solid;border-top-color:#000000;border-right:1px solid;border-right-color:#000000;color:#ffffff;border-left:1px solid;border-left-color:#000000; }
-.tabbox .menu .tab.selected .tab-inner { background-position:top;border-left:1px solid;border-left-color:#455257;background-attachment:scroll;background-color:#07080a;border-top:1px solid;border-top-color:#455257;background-image:url("https://assets-cloud.enjin.com/themes/1306384095_shade-down.png");background-repeat:repeat-x;border-right:1px solid;border-right-color:#455257; }
+.tabbox .menu .tab.selected .tab-inner { background-position:top;border-left:1px solid;border-left-color:#455257;background-attachment:scroll;background-color:#07080a;border-top:1px solid;border-top-color:#455257;background-image:url("../images/shade-down.png");background-repeat:repeat-x;border-right:1px solid;border-right-color:#455257; }
 .tabbox .submenu .tab { background-color:#13181c; }
 .tabbox .submenu .tab.selected { background-color:#293136;color:#ffffff; }
 .tabbox .submenu { border-bottom-color:#293136; }
@@ -129,11 +129,11 @@ a:hover, a:focus { color:#ffffff; }
 #enjin-bar a { color:#8cbbd4; }
 #enjin-bar .divider { color:#63656b; }
 .widgetbox .widget-body-wrap { border:1px solid;border-color:#000000; }
-.widgetbox .widget-body { background-repeat:repeat-x;background-position:bottom left;background-color:#0c0f12;background-image:url("https://assets-cloud.enjin.com/themes/1306383801_shade.png");border:1px solid;border-color:#3c4e57; }
+.widgetbox .widget-body { background-repeat:repeat-x;background-position:bottom left;background-color:#0c0f12;background-image:url("../images/shade.png");border:1px solid;border-color:#3c4e57; }
 .widgetbox .widget-title { height:27px;background-color:transparent;color:#ffffff; }
 .widgetbox .widget-title .title .mask { margin-left:10px;padding-top:9px;margin-right:10px; }
-.widgetbox .widget-title .left { background-image:url("https://assets-cloud.enjin.com/themes/1306383585_regular-title.png"); }
-.widgetbox .widget-title .right { background-image:url("https://assets-cloud.enjin.com/themes/1306383585_regular-title.png"); }
+.widgetbox .widget-title .left { background-image:url("../images/regular-title.png"); }
+.widgetbox .widget-title .right { background-image:url("../images/regular-title.png"); }
 .container_spacer { height:8px; }
 .container_spacer.first { height:1px; }
 .container_spacer.last { height:7px; }
@@ -147,7 +147,7 @@ a:hover, a:focus { color:#ffffff; }
 .element_popup .inner { background-color:#000000;color:#c3c5c7;border-width:1px;border-color:#96a2a8; }
 .element_tinypopup { border-color:#000000; }
 .element_tinypopup a { border-color:#96a2a8;background-color:#000000; }
-.commentbox .bubble { width:80px;background-color:transparent;height:69px;padding-right:0px;background-image:url("https://assets-cloud.enjin.com/themes/1306668034_news.png");border:0px;border-color:transparent;padding-left:0px; }
+.commentbox .bubble { width:80px;background-color:transparent;height:69px;padding-right:0px;background-image:url("../images/news.png");border:0px;border-color:transparent;padding-left:0px; }
 .commentbox .bubble .big-number { margin-top:11px;color:#ffffff;margin-bottom:2px;font-weight:normal;font-size:30px; }
 .commentbox .bubble .comment-text { color:#8495a1; }
 .container.with-header.first .container_header { height:30px; }
@@ -191,43 +191,11 @@ a:hover, a:focus { color:#ffffff; }
 .element_button input:focus { color:#ffffff; }
 .element_smallbutton input:focus { color:#ffffff; }
 .element_bigbutton input:focus { color:#ffffff; }
-.m_forum .thread-icon .icon { background-image:url("https://assets-cloud.enjin.com/themes/1260830254_read.png"); }
-.m_forum .thread-icon .icon.hot { background-image:url("https://assets-cloud.enjin.com/themes/1260830329_hot_thread.png"); }
-.m_forum .thread-icon .icon.sticky { background-image:url("https://assets-cloud.enjin.com/themes/1260830355_sticky.png"); }
-.m_forum .thread-icon .icon.deleted { background-image:url("https://assets-cloud.enjin.com/themes/1260830376_deleted.png"); }
-.m_forum .thread-icon .icon.moved { background-image:url("https://assets-cloud.enjin.com/themes/1260830397_moved.png"); }
-.m_forum .thread-icon .icon.locked { background-image:url("https://assets-cloud.enjin.com/themes/1260830418_locked.png"); }
-.m_forum .thread-icon .icon.new { background-image:url("https://assets-cloud.enjin.com/themes/1260830293_unread.png"); }
-.m_forum .breadcrumbs .text .mask { margin-right:12px;margin-left:14px; }
-.m_forum .breadcrumbs { height:45px; }
-.m_forum .breadcrumbs .text { line-height:52px;color:#ffffff; }
-.m_eventsmini div.month { background-color:transparent; }
-.m_eventsmini .footerbar { background-color:transparent; }
-.m_eventsmini .mini-calendar td div { border:1px solid;border-color:#000000; }
-.m_eventsmini .mini-calendar td.day { color:#ffffff;border:1px solid;border-color:#29343b;background-color:#000000;background-image:url("https://assets-cloud.enjin.com/themes/1306450578_menu1.png"); }
-.m_eventsmini .mini-calendar td.day-other { border:1px solid;border-color:#29343b;background-color:#000000;color:#4f4f4f; }
-.m_eventsmini .mini-calendar td.day.event div { border-color:#c9e8f7; }
-.m_eventsmini .mini-calendar td.day.current div { color:#ffffff;background-color:#242c30; }
-.icon_admin { background-image:url("https://assets-cloud.enjin.com/themes/1260909445_icon_admin.gif"); }
-.icon_online { background-image:url("https://assets-cloud.enjin.com/themes/1260909434_icon_online.gif"); }
-.m_gameserverstatus .item .name { color:#ffffff; }
-.m_eventsmini .month .title { color:#ffffff; }
-.m_eventsmini .mini-calendar td.day.current a { color:#ffffff; }
-.m_gameserverstatus .item .status.up { background-image:url("https://assets-cloud.enjin.com/themes/1278457838_green_up.png"); }
-.m_gameserverstatus .item .status.down { background-image:url("https://assets-cloud.enjin.com/themes/1278457842_red_down.png"); }
-.m_system-profile .messages.messages-compose ul.holder li.bit-box a.closebutton { background-image:url("https://assets-cloud.enjin.com/themes/1263512321_small_x.png"); }
-.m_forum .area-poll .answers .answer .close { background-image:url("https://assets-cloud.enjin.com/themes/1260910574_big-delete.png"); }
-.m_system-profile .messages .remove-link, .m_system-dashboard .messages .remove-link { background-image:url("https://assets-cloud.enjin.com/themes/1260910574_big-delete.png"); }
+.m_system-profile .messages .remove-link, .m_system-dashboard .messages .remove-link { background-image:url("../images/big-delete.png"); }
 .m_system-profile .messages .message-list .item.read .subject, .m_system-dashboard .messages .message-list .item.read .subject { color:#5b666e; }
 .m_system-profile .messages .message-list .item a:hover .subject, .m_system-dashboard .messages .message-list .item a:hover .subject { color:#ffffff; }
 .m_system-profile .messages .message-list .item a:focus .subject, .m_system-dashboard .messages .message-list .item a:focus .subject { color:#ffffff; }
-.msg_icon.replied { background-image:url("https://assets-cloud.enjin.com/themes/1260910578_sent-icon.png"); }
-.msg_icon.locked { background-image:url("https://assets-cloud.enjin.com/themes/1260910582_lock-icon.png"); }
-.msg_icon.kicked { background-image:url("https://assets-cloud.enjin.com/themes/1260910585_kicked-icon.png"); }
 .element_pagewidget { color:#ffffff; }
-.m_memberslatest .user .registered { color:#5b666e; }
-.m_membersonline .featured .user .registered { color:#5b666e; }
-.m_news.main .post-comment-icon { background-image:url("https://assets-cloud.enjin.com/themes/1263521113_icon.png");height:17px;top:1px;width:15px; }
 .m_rssfeed .feed-item { border-top:1px solid;border-top-color:#030303;border-bottom:1px solid;border-bottom-color:#273133; }
 .m_listitems .list-item { border-bottom:1px solid;border-bottom-color:#273133;border-top:1px solid;border-top-color:#030303; }
 .m_forumtopposter .user { border-bottom:1px solid;border-bottom-color:#273133;border-top:1px solid;border-top-color:#030303; }
@@ -238,25 +206,21 @@ a:hover, a:focus { color:#ffffff; }
 .m_shoutbox .shout { border-bottom:1px solid;border-bottom-color:#273133;border-top:1px solid;border-top-color:#030303; }
 .m_news.main .article { border-bottom:1px solid;border-bottom-color:#273133;border-top:1px solid;border-top-color:#030303; }
 .m_news.main .entries { border-top:1px solid;border-top-color:#030303; }
-.m_login.loggedin .info { color:#ffffff; }
-.m_eventcalendar-list .items .item .date { border-top:1px solid;border-top-color:#2c373d;background-color:#090c0f;color:#ffffff;height:26px;border-bottom:1px solid;border-bottom-color:#000000; }
-.m_eventsupcoming .item .title { color:#ffffff;background-image:url("https://assets-cloud.enjin.com/themes/1263521194_calicon.png");border-bottom:1px solid;border-bottom-color:#363636; }
-.m_eventsupcoming .page-link a { color:#c9e8f7; }
 .m_news.viewarticle .contentbox .comment { border-top:1px solid;border-top-color:#030303;border-bottom:1px solid;border-bottom-color:#273133; }
 .m_news.viewarticle .contentbox .comment .top .posted { color:#5b666e; }
-.profile-sidebar-block-friends .panel .x { background-image:url("https://assets-cloud.enjin.com/themes/1263512321_small_x.png"); }
-.m_shoutbox .shout .x { background-image:url("https://assets-cloud.enjin.com/themes/1263512321_small_x.png"); }
+.profile-sidebar-block-friends .panel .x { background-image:url("../images/small_x.png"); }
+.m_shoutbox .shout .x { background-image:url("../images/small_x.png"); }
 .m_system-profile .profile-sidebar-block-friends .user { border-bottom:1px solid;border-bottom-color:#363636; }
 .m_system-profile .widget-friends .pager { border-top:1px solid;border-top-color:#363636; }
 .m_system-profile .profile-sidebar-vital-info td.label { color:#ffffff; }
 .m_system-profile .block-vital-info-view td.label { color:#ffffff; }
 .m_system-profile .info-vitalinfo .group-networks .mode-edit .item .label { color:#ffffff; }
-.m_eventcalendar-list .items .item .info { background-position:top left;background-color:#02060a;background-repeat:repeat-x;border-bottom:1px solid;border-bottom-color:#000000;border-top:1px solid;border-top-color:#2c373d;background-image:url("https://assets-cloud.enjin.com/themes/1306453843_shade-down.png"); }
+.m_eventcalendar-list .items .item .info { background-position:top left;background-color:#02060a;background-repeat:repeat-x;border-bottom:1px solid;border-bottom-color:#000000;border-top:1px solid;border-top-color:#2c373d;background-image:url("../images/shade-down.png"); }
 .m_eventcalendar .event-body .block-labels .edata .data { color:#ffffff; }
 .m_eventsmini .mini-calendar td.day.event div a { color:#c9e8f7; }
 .m_eventsmini .mini-calendar td.day.current.event div { color:#ffffff; }
-.m_matches .list .row .c { border-bottom:1px solid;border-bottom-color:#000000;border-top:1px solid;border-top-color:#2c373d;background-repeat:repeat-x;background-position:top left;background-image:url("https://assets-cloud.enjin.com/themes/1306392421_shade-down.png");background-color:#02060a; }
-.m_matches .list .row .icon { background-image:url("https://assets-cloud.enjin.com/themes/1306390839_shade1.png");background-position:bottom left;background-color:#02060a;background-repeat:repeat-x; }
+.m_matches .list .row .c { border-bottom:1px solid;border-bottom-color:#000000;border-top:1px solid;border-top-color:#2c373d;background-repeat:repeat-x;background-position:top left;background-image:url("../images/shade-down.png");background-color:#02060a; }
+.m_matches .list .row .icon { background-image:url("../images/shade1.png");background-position:bottom left;background-color:#02060a;background-repeat:repeat-x; }
 .m_matches .list .heading .c { height:26px;background-color:#090c0f; }
 .m_matches .list .row .status { color:#ffffff; }
 .m_matches .list .row .team { color:#ffffff; }
@@ -290,8 +254,6 @@ a:hover, a:focus { color:#ffffff; }
 .logosite { border:1px solid;border-color:#4c5a61;background-color:#000000; }
 .m_system-profile .block-friend-actions { border-color:#363636; }
 .m_system-profile .block-friend-actions .message { border-color:#363636; }
-.m_rssfeed .feed-item .title .link-opcl { background-image:url("https://assets-cloud.enjin.com/themes/1260909736_%2Bicon.png"); }
-.m_rssfeed .feed-item .title .link-opcl.open { background-image:url("https://assets-cloud.enjin.com/themes/1260909761_-icon.png"); }
 .text-labeling { color:#ffffff; }
 .m_recruitmentstatus .item .status.medium { color:#f3faaa; }
 .m_recruitmentstatus .item .status.high { color:#2db300; }
@@ -300,13 +262,6 @@ a:hover, a:focus { color:#ffffff; }
 .element_popup .message { color:#ffffff; }
 .editmode-module { background-color:transparent; }
 .m_vmenu { padding-right:0px;padding-top:0px;padding-left:0px;padding-bottom:0px; }
-.m_eventcalendar-list .items .item .date .text { line-height:26px;background-image:url("https://assets-cloud.enjin.com/themes/1263521194_calicon.png"); }
-#enjin-bar .mail-icon { background-image:url("https://assets-cloud.enjin.com/themes/1260163395_mail-icon.png"); }
-.m_digitalclock .left { background-image:url("https://assets-cloud.enjin.com/themes/1270709670_clock9.png"); }
-.m_digitalclock .right { background-image:url("https://assets-cloud.enjin.com/themes/1270709670_clock9.png"); }
-.m_digitalclock { background-color:#0f0f0f; }
-.m_digitalclock object { height:73px; }
-.m_digitalclock embed { height:73px; }
 .element_username:hover { color:#c9e8f7; }
 .element_username:focus { color:#c9e8f7; }
 .m_system-login.register h2 { color:#ffffff; }
@@ -326,10 +281,6 @@ a:hover, a:focus { color:#ffffff; }
 .m_plugin_comment .commentbox-detail .comment { border-top:1px solid;border-top-color:#030303;border-bottom:1px solid;border-bottom-color:#273133; }
 .m_plugin_comment .commentbox-detail .comment .top .posted { color:#5b666e; }
 .bbcode-toolbar-popup table tr:hover td { background-color:#0f0f0f; }
-.m_system-profile .profile-main .menu .tab.tab-compose .text { background-image:url("https://assets-cloud.enjin.com/themes/1260163395_mail-icon.png"); }
-.m_forumtopposter .user .count { color:#ffffff; }
-.m_userspotlight .message { color:#ffffff; }
-.m_birthday .separator { color:#ffffff; }
 .m_matchesupcoming li { border-top:1px solid;border-top-color:#030303;border-bottom:1px solid;border-bottom-color:#273133;color:#ffffff; }
 .m_matcheslatest li { border-top:1px solid;border-top-color:#030303;border-bottom:1px solid;border-bottom-color:#273133;color:#ffffff; }
 .special_container { margin-top:0px;margin-bottom:0px; }
@@ -385,69 +336,23 @@ a:hover, a:focus { color:#ffffff; }
 .m_appform-rendered .label { color:#ffffff; }
 .m_appform-rendered .mitem-selected { color:#ffffff; }
 .m_appform-rendered .title { border-bottom:1px solid;border-bottom-color:#363636;color:#ffffff; }
-.m_achievements .list-item .status { background-image:url("https://assets-cloud.enjin.com/themes/1268022341_tick_none.png"); }
-.m_achievements .list-item.completed .status { background-image:url("https://assets-cloud.enjin.com/themes/1268022352_tick_green.png"); }
-.m_achievements .list-item.heroic .status { background-image:url("https://assets-cloud.enjin.com/themes/1268022364_tick_blue.png"); }
-.m_achievements .list-item .icon { border:1px solid;border-color:#4c5a61; }
-.m_achievements .list-item .text { color:#5b666e; }
-.m_achievements .list-item.completed .text { color:#2db300; }
-.m_achievements .list-item.heroic .text { color:#4bbbff; }
 .element_username.admin { color:#5eccff; }
-.m_forum .forum-icon .icon.read { background-image:url("https://assets-cloud.enjin.com/themes/1269901632_forum_read.png"); }
-.m_forum .forum-icon .icon.unread { background-image:url("https://assets-cloud.enjin.com/themes/1269901640_forum_unread.png"); }
-.m_forum a.forum_old { color:#c3c5c7; }
-.m_forumlatestthreads a.old { color:#5b666e; }
-.trial_popup .emphasis { color:#ffffff; }
-.trial_popup .feature { background-image:url("https://assets-cloud.enjin.com/themes/1278457838_green_up.png"); }
-.m_forum .forum .subforums a { background-image:url("https://assets-cloud.enjin.com/themes/1270953543_subforum_icon.png"); }
-.m_forum.viewforum .subforums-block .row .threads { color:#ffffff; }
-.m_forum.viewforum .subforums .row .posts { color:#ffffff; }
-.m_forum.viewforum .subforums .forum .description { color:#5b666e; }
-.m_forum.viewforum .subforums-block .latest .posted { color:#5b666e; }
-.m_forum.viewforum .announcement-separator { border-bottom:1px solid;border-bottom-color:#000000;border-top:1px solid;border-top-color:#2c373d; }
-.m_forum .forum .subforums a.forum_old { background-image:url("https://assets-cloud.enjin.com/themes/1271633954_read_sub.png"); }
-.m_forum .contentbox.results .block-title .text .highlighted { color:#ffffff; }
-.m_forum .search-result-post .word-highlight { color:#ffffff; }
-.m_forum .search-result-post { border-top:1px solid;border-top-color:#363636; }
-.m_forum .search-result-post .result-content { color:#5b666e; }
-.m_forum .search-result-post .result-info { color:#5b666e; }
 .profile-wrapper .character-group .element_title .icon-game { border:1px solid;border-color:#4c5a61;background-color:#000000; }
-.m_forum .jump-to-post { background-image:url("https://assets-cloud.enjin.com/themes/1272793762_lastpost.png"); }
-.container_inner_bl { background-image:url("https://assets-cloud.enjin.com/themes/1306384652_bottom-shade.png"); }
-.container_inner_br { background-image:url("https://assets-cloud.enjin.com/themes/1306384652_bottom-shade.png"); }
-.container .container_body .container_left_bottom { background-image:url("https://assets-cloud.enjin.com/themes/1306668751_upper-lines.png"); }
-.container .container_body .container_right_bottom { background-image:url("https://assets-cloud.enjin.com/themes/1306668751_upper-lines.png"); }
-.container .container_body .container_left_top { background-image:url("https://assets-cloud.enjin.com/themes/1306667079_down-lines.png"); }
-.container .container_body .container_right_top { background-image:url("https://assets-cloud.enjin.com/themes/1306667079_down-lines.png"); }
+.container_inner_bl { background-image:url("../images/bottom-shade.png"); }
+.container_inner_br { background-image:url("../images/bottom-shade.png"); }
+.container .container_body .container_left_bottom { background-image:url("../images/upper-lines.png"); }
+.container .container_body .container_right_bottom { background-image:url("../images/upper-lines.png"); }
+.container .container_body .container_left_top { background-image:url("../images/down-lines.png"); }
+.container .container_body .container_right_top { background-image:url("../images/down-lines.png"); }
 .element_popup_gallery .desclinks .description .title { color:#ffffff; }
 .m_chat .chat-entry .user, .m_chat .chat-entry .user a { color:#ffffff; }
 .m_chat .chat-entry.joined, .m_chat .chat-entry.joined a { color:#ffffff; }
 .m_chat .chat-entry.left, .m_chat .chat-entry.left a { color:#ffffff; }
-.m_chat .chat-top { background-image:url("https://assets-cloud.enjin.com/themes/1306453956_gridpat.png");border-bottom:1px solid;border-bottom-color:#273133; }
+.m_chat .chat-top { background-image:url("../images/gridpat.png");border-bottom:1px solid;border-bottom-color:#273133; }
 .m_chat .chat-bottom { border-top:1px solid;border-top-color:#030303; }
 .m_appform { border-color:#363636;border-bottom:1px solid;border-bottom-color:#363636; }
 .profile-wrapper .character-group .characters-list td.data .level { color:#ffffff; }
 .add-character.element_popup .title { color:#ffffff; }
-.m_gameserverstatus .server { color:#ffffff; }
-.m_gameserverstatus .game { color:#5b666e; }
-.m_gameserverstatus .status-icon.online { background-image:url("https://assets-cloud.enjin.com/themes/1278457838_green_up.png"); }
-.m_gameserverstatus .status-icon.offline { background-image:url("https://assets-cloud.enjin.com/themes/1278457842_red_down.png"); }
-.m_memberlist .heading .col { background-color:#090c0f;height:26px; }
-.m_memberlist .row .col { background-repeat:repeat-x;border-bottom:1px solid;border-bottom-color:#000000;border-right:0px;border-right-color:transparent;background-color:#02060a;background-position:top left;border-top:1px solid;border-top-color:#2c373d;background-image:url("https://assets-cloud.enjin.com/themes/1306392421_shade-down.png");border-left:1px solid;border-left-color:#11161c; }
-.m_memberlist .items-list .group-title { height:26px;border-top:1px solid;border-top-color:#2c373d;background-color:#090c0f; }
-.m_forum.viewthread .post-attachments-images { border:1px solid;border-color:#363636; }
-.m_forum.viewthread .post-attachments-files { border:1px solid;border-color:#363636; }
-.m_forum .panel-attachments fieldset { border:1px solid;border-color:#363636; }
-.profile-wrapper .character-group .characters-list .data .title { color:#ffffff; }
-.m_grouppay .panel-top .mtitle { color:#ffffff; }
-.m_grouppay .items-days .amount { color:#2db300; }
-.m_grouppay .buttons { background-color:#0f0f0f;border-top:1px solid;border-top-color:#030303; }
-.m_grouppay .panel-stats table .content { color:#ffffff; }
-.m_grouppay .content-info { border-bottom:1px solid;border-bottom-color:#273133; }
-.m_progression-popup .killed { color:#ff0000; }
-.m_progression-popup .defeated { color:#5b666e; }
-.m_progression-popup .category-title { color:#8cbbd4; }
-.m_progression-popup .man-title { color:#ffffff; }
 .m_countdown .num { color:#8cbbd4; }
 .m_countdown .big-num { color:#8cbbd4; }
 .m_countdown .sep { color:#ffffff; }
@@ -516,7 +421,7 @@ select.input-text { color:#ffffff; }
 .textboxlist-bits { border:1px solid;border-color:#646c70; }
 .textboxlist-bit-editable-input { color:#ffffff; }
 .textboxlist-bit-box { border:1px solid;border-color:#455257;background-color:#000000; }
-.textboxlist-bit-box-deletebutton { background-image:url("https://assets-cloud.enjin.com/themes/1263512321_small_x.png"); }
+.textboxlist-bit-box-deletebutton { background-image:url("../images/small_x.png"); }
 .textboxlist-bit-box-hover { border:1px solid;border-color:#455257;background-color:#000000; }
 .textboxlist-bit-box-focus { border:1px solid;border-color:#455257;background-color:#000000;color:#ffffff; }
 .textboxlist-autocomplete-placeholder, .textboxlist-autocomplete-results { border:1px solid;border-color:#96a2a8;background-color:#000000; }
@@ -537,60 +442,12 @@ select.input-text { color:#ffffff; }
 .m_system-profile .widget-posts .post .post-time { color:#ffffff; }
 .m_system-profile .widget-posts .post .bread-crumbs { color:#8cbbd4; }
 .m_system-profile .widget-posts .post .community, .m_system-profile .widget-posts .post .community a { color:#8cbbd4; }
-.m_gameserverstatus .valid { color:#2db300; }
-.m_gameserverstatus .warning { color:#f3faaa; }
-.m_gameserverstatus .invalid { color:#ff0000; }
-.m_system-dashboard .messages .message-list-controls, .m_system-dashboard .applications .application-list-controls { border-top-color:#363636;border-bottom-color:#363636; }
-.m_system-dashboard .message-list-controls .search-filter { border-left:1px solid;border-left-color:#363636; }
-.m_system-dashboard .messages .msg_filter a.selected, .m_system-dashboard .applications .msg_filter a.selected { color:#ffffff;background-color:#363636; }
-.m_system-dashboard .messages .vertical-divider { color:#363636; }
-.m_system-dashboard .messages .message-list .item, .m_system-dashboard .folders .folder-list .item { border-bottom:1px solid;border-bottom-color:#363636; }
-.m_system-dashboard .messages .message-list-paging, .m_system-dashboard .messages-compose .compose-area { border-top-color:#363636; }
-.m_system-dashboard .folders .folder-list .item .folder-icon { background-image:url("https://assets-cloud.enjin.com/themes/1269901640_forum_unread.png"); }
-.m_system-dashboard .messages.messages-view .message-to, .m_system-dashboard .messages.messages-view .preview { border-bottom:1px solid;border-bottom-color:#363636; }
-.m_system-dashboard .messages-compose .tags-popup .inner .site-name { color:#ffffff; }
-.m_system-dashboard .arrow { border-top-color:#ffffff; }
-.m_system-dashboard .dashboard-left .msg-count { background-color:#07080a;border:1px solid;border-color:#363636;color:#ffffff; }
-.m_riftguildperks_tooltip .title { color:#ffffff; }
-.m_forum.viewthread .profile .positive, .forum-user-dropdown .menu-link.votes-positive { color:#2db300; }
-.m_forum.viewthread .profile .negative { color:#ff0000; }
-.m_system-dashboard .subscriptions .subscriptions-list-controls { border-top-color:#363636;border-bottom-color:#363636; }
-.m_system-dashboard .subscriptions .subscriptions-list-paging { border-top-color:#363636; }
-.m_system-dashboard .subscriptions .items-list .item { border-bottom:1px solid;border-bottom-color:#363636; }
-.m_system-dashboard .subscriptions .items-list .item .remove-link { background-image:url("https://assets-cloud.enjin.com/themes/1260910574_big-delete.png"); }
-.m_system-dashboard .subscriptions .items-list .item .type { background-image:#ffffff; }
-.m_system-dashboard .subscriptions .items-list .item .item-icon.icon-thread { background-image:url("https://assets-cloud.enjin.com/themes/1260830254_read.png"); }
-.m_system-dashboard .subscriptions .items-list .item .item-icon.icon-forum { background-image:url("https://assets-cloud.enjin.com/themes/1269901632_forum_read.png"); }
-.m_eventcalendar .fc-grid .fc-day-number { color:#ffffff; }
-.m_eventcalendar .fc-grid .fc-other-month .fc-day-number { color:#4f4f4f; }
-.m_eventcalendar .fc-day-today-label { color:#ffffff; }
-.m_eventcalendar .fc-content .fc-state-default { border-color:#29343b; }
-.m_eventcalendar .fc-content .fc-not-today { background-color:#000000; }
-.m_eventcalendar .fc-content .fc-state-highlight { background-color:#242c30; }
-.m_eventcalendar .fc .fc-grid th { color:#ffffff;background-color:#000000; }
-.m_eventcalendar .fc-widget-content { border-color:#29343b; }
-.m_eventcalendar-stats-hover .ptitle { color:#ffffff; }
-.m_eventcalendar .calendar-container-event-detail .block-container .detail-main .detail-info .label { color:#ffffff; }
-.m_eventcalendar .fc-content .fc-not-today.fc-other-month { background-color:#000000; }
-.m_eventcalendar .calendar-container-event-detail .attend-options { border:1px solid;border-color:#000000; }
-.m_eventcalendar .calendar-container-event-detail .attend-options .inner { background-color:#07080a;border:1px solid;border-color:#455257; }
-.m_system-dashboard .friends .friends-table .pm-icon { background-image:url("https://assets-cloud.enjin.com/themes/1260163395_mail-icon.png"); }
-.m_system-dashboard .friends .friends-table .remove-link { background-image:url("https://assets-cloud.enjin.com/themes/1260910574_big-delete.png"); }
-.m_system-dashboard .friends .friends-list-controls .title { color:#ffffff; }
-.m_system-dashboard .friends-invite .invite-providers .provider-link.open { background-color:#13181c; }
-.m_eventcalendar .calendar-container-event-list .eventlist-item .date-info .date { color:#ffffff; }
-.m_eventcalendar .menu-top .nav-views .item .link { background-color:#13181c; }
-.m_eventcalendar .menu-top .nav-views .item.selected .link, .m_eventcalendar .menu-top .nav-views .item:hover .link { background-color:#293136; }
-.m_eventcalendar .menu-top .nav-views .item.selected .link a, .m_eventcalendar .menu-top .nav-views .item:hover .link a { color:#ffffff; }
-.m_eventcalendar .menu-top .nav-views .item.selected .indicator, .m_eventcalendar .menu-top .nav-views .item:hover .indicator { border-top-color:#293136; }
 .m_system-dashboard .friends-invite-find .widgetbox .items .contact { border-bottom:1px solid;border-bottom-color:#363636; }
 .m_system-dashboard table.invite-contact-send td { border-bottom:1px solid;border-bottom-color:#363636; }
-.m_system-profile .wall-post-area .embed-area .embed-remove, .m_system-dashboard .wall-post-area .embed-area .embed-remove { background-image:url("https://assets-cloud.enjin.com/themes/1260910574_big-delete.png"); }
 .element_wall .wall-post-types .triangle { border-top-color:#646c70; }
 .element_wall .wall-post-types .triangle div { border-top-color:#000000; }
 .m_system-dashboard .search .search-tabs, .m_system-dashboard .games .games-tabs { border-bottom:1px solid;border-bottom-color:#455257; }
 .m_system-dashboard .search .search-tabs .menu, .m_system-dashboard .games .games-tabs .menu { border-bottom:1px solid;border-bottom-color:#000000; }
-.m_system-dashboard .games .remove-link { background-image:url("https://assets-cloud.enjin.com/themes/1260910574_big-delete.png"); }
 .m_system-dashboard .games .search-results .description { color:#5b666e; }
 .m_system-dashboard .games .games-list-paging.top { border-top:1px solid;border-top-color:#363636; }
 .m_eventcalendar-atthistory .item-history-attending, .m_eventcalendar .calendar-container-event-detail .attend-list .scroller .item .attending-type .attending { color:#2db300; }
@@ -598,7 +455,6 @@ select.input-text { color:#ffffff; }
 .m_eventcalendar-atthistory .item-history-not-attending, .m_eventcalendar .calendar-container-event-detail .attend-list .scroller .item .attending-type .not-attending { color:#ff0000; }
 .m_system-dashboard .applications .item-list .item.read .title, .m_system-dashboard .applications .item-list .item .title { color:#5b666e; }
 .m_system-dashboard .applications .item-list .item { color:#5b666e; }
-.m_system-dashboard .applications .item-list .item .remove-link { background-image:url("https://assets-cloud.enjin.com/themes/1260910574_big-delete.png"); }
 .m_system-dashboard .applications .item-list-paging { border-top-color:#363636; }
 .m_system-dashboard .applications .details-header { border-bottom:1px solid;border-bottom-color:#363636; }
 .m_system-dashboard .applications .item-list .item .location { color:#ffffff; }
@@ -640,26 +496,6 @@ select.input-text { color:#ffffff; }
 .element_wall .wall-post .embed-description { color:#5b666e; }
 .element_wall .embed-thumbnail-small-wrap { border:1px solid;border-color:#363636; }
 .element_wall .post-panel.embed .embed-title:hover, .element_wall .post-panel.embed .embed-description:hover { background-color:#2a3438; }
-.m_twitterfeed .content .item { border-bottom:1px solid;border-bottom-color:#363636; }
-.m_twitterfeed .footer { background-color:#07080a;border-top:1px solid;border-top-color:#363636; }
-.m_twitterfeed .content .item .detail .time { color:#5b666e; }
-.m_swtorrecruitmentstatus .class .body .note, .m_gw2recruitmentstatus .race .body .note, .m_terarecruitmentstatus .race .body .note { color:#5b666e; }
-.m_sitewall { background-color:#07080a;border:1px solid;border-color:#455257;background-position:top left;background-repeat:no-repeat;background-attachment:scroll; }
-.m_sitewall .wall-post.forum_thread_group table table td { border-top:1px solid;border-top-color:#363636; }
-.m_sitewall .wall-post.forum_thread_group th.replies, .m_sitewall .wall-post.forum_thread_group th.forum { color:#5b666e; }
-.m_sitewall .wall-post .viewolder a { color:#c9e8f7; }
-.m_sitewall .wall-post.forum_thread_group .replies a { color:#c3c5c7; }
-.m_achievements .list-item.nightmare .text { color:#ff0000; }
-.m_system-siteprofile .siteprofile-menu { background-color:#13181c;border-top:1px solid;border-top-color:#455257;border-bottom:1px solid;border-bottom-color:#455257; }
-.m_system-siteprofile .siteprofile-menu a.selected { color:#ffffff; }
-.m_system-siteprofile .subsection.members #table-wrap { border:1px solid;border-color:#455257; }
-.m_system-siteprofile .siteprofile-main .rightcolumn-border { background-color:#455257; }
-.m_system-siteprofile .subsection.members #table-wrap .data-table th { color:#5b666e; }
-.m_system-siteprofile .subsection.members #table-wrap .data-table .emphasis { color:#ffffff; }
-.m_system-siteprofile .subsection.members #table-wrap .pm-icon { background-image:url("https://assets-cloud.enjin.com/themes/1260163395_mail-icon.png"); }
-.m_system-siteprofile .subsection.games .division-line { background-color:#455257; }
-.m_system-siteprofile .subsection.games .supported-games .game .info_label { color:#ffffff; }
-.m_system-siteprofile .subsection.games .supported-games .game h2 { color:#ffffff; }
 .m_system-profile .widget-characters .character-list .character, .m_system-dashboard .characters .character-list .character { background-color:#13181c; }
 .m_system-profile .widget-characters .character-list .character .character-data .character-name, .m_system-dashboard .characters .character-list .character .character-data .character-name { color:#8cbbd4; }
 .m_system-profile .widget-characters .character-list .character .character-data .info, .m_system-dashboard .characters .character-list .character .character-data .info { color:#5b666e; }
@@ -674,14 +510,6 @@ select.input-text { color:#ffffff; }
 .profile-sidebar-block-characters .character .name { color:#c9e8f7; }
 #form-builder #form-area .form-wow-answer .input-column, .m_system-dashboard .applications .form-wow-answer .input-column, .m_appform .form-wow-answer .input-column { color:#ffffff; }
 #form-builder #form-area .form-wow-answer .character .name, .m_system-dashboard .applications .form-wow-answer .character .name, .m_appform .form-wow-answer .character .name { color:#c9e8f7; }
-.m_minecraftserverstatus .description { background-color:#07080a;border:1px solid;border-color:#455257; }
-.m_minecraftserverstatus span.online { color:#2db300; }
-.m_minecraftserverstatus span.offline { color:#ff0000; }
-.m_minecraftservertopplayersonline .player { border-top:1px solid;border-top-color:#363636; }
-.m_minecraftserverstatus .title { color:#ffffff; }
-.m_minecraftserverstatus .host { color:#8cbbd4; }
-.m_minecraftserverstatus .status.up { background-image:url("https://assets-cloud.enjin.com/themes/1278457838_green_up.png"); }
-.m_minecraftserverstatus .status.down { background-image:url("https://assets-cloud.enjin.com/themes/1278457842_red_down.png"); }
 .m_system-dashboard .recruitment .title { border-bottom:1px solid;border-bottom-color:#363636;color:#ffffff; }
 .m_system-dashboard .recruitment span.filter-field { color:#5b666e; }
 .m_system-dashboard .recruitment .filter-left span:hover, .m_system-dashboard .recruitment .filter-left span.filter-field-active { border:1px solid;border-color:#363636;color:#ffffff; }
