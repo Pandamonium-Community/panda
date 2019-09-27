@@ -1,8 +1,4 @@
-# panda
-Pandamonium
-
-The template used to create this website design was initially based on Metallurgic SWTOR by Maxim (enjin.com/profile/maxim_enjin).
-
+# Pandamonium
 Credits:
 
 	Web Font Icons:
@@ -10,3 +6,6 @@ Credits:
 
 	Fonts:
 		Ubuntu (design.ubuntu.com/font/)
+
+	Original Theme:
+		Metallurgic SWTOR by Maxim (enjin.com/profile/maxim_enjin)
