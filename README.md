@@ -1,6 +1,9 @@
 # Pandamonium
 Credits:
 
+	Design:
+		Kaisa Connor (Discord Kaisa#0265)
+
 	Web Font Icons:
 		Font Awesome (fontawesome.com/license/free)
 
