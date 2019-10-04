@@ -1,670 +1,957 @@
 ﻿<!DOCTYPE html>
+
+<html>
 <head>
-	<title>Pandamonium: Official Teams</title>
+  <title>Pandamonium: Official Teams</title>
+  <meta charset="UTF-8">
+  <meta content="en-US" http-equiv="Content-Language">
+  <meta content="upgrade-insecure-requests" http-equiv="Content-Security-Policy">
+  <meta content="Kaisa Connor" name="author">
+  <meta content="Pandamonium, an MMO gaming community." name="description">
+  <meta content="index, follow" name="robots">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="css/all.css" rel="stylesheet"><!-- Font Awesome -->
+  <link href="css/core.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="css/fonts.css" rel="stylesheet"><!-- Ubuntu font -->
+  <link href="css/menu-style.css" media="screen" rel="stylesheet" title="menu-css" type="text/css">
+  <link href="css/styles.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="css/theme.css" media="screen" rel="stylesheet" type="text/css"><!-- Favicon Start-->
+  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="images/favicon.ico" rel="icon" type="image/x-icon"><!-- Favicon End-->
 
-	<meta charset="UTF-8">
+  <script src="js/default_layout.js" type="text/javascript">
+  </script>
+  <script src="js/menu.js" type="text/javascript">
+  </script><!-- START OF MENU FUNCTIONALITY -->
 
-	<meta http-equiv="Content-Language" content="en-US">
-	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <script type="text/javascript">
+        //<!--
+        // define variables if need be
+    if (typeof submenu_effect === 'undefined') var submenu_effect = {};
+    if (typeof submenu_effect_speed === 'undefined') var submenu_effect_speed = {};
+    if (typeof submenu_button_effect_speed === 'undefined') var submenu_button_effect_speed = {};
+    if (typeof open_submenu_action === 'undefined') var open_submenu_action = {};
+    if (typeof button_gap_distance_subbut === 'undefined') var button_gap_distance_subbut = {};
+    if (typeof gapl_c_hs === 'undefined') var gapl_c_hs = {};
+    if (typeof gapr_c_hs === 'undefined') var gapr_c_hs = {};
+    if (typeof gap_hs_image === 'undefined') var gap_hs_image = {};
+    if (typeof gap_image === 'undefined') var gap_image = {};
+    if (typeof gapl_c === 'undefined') var gapl_c = {};
+    if (typeof gapr_c === 'undefined') var gapr_c = {};
+    if (typeof menu_position === 'undefined') var menu_position = {};
 
-	<meta name="author" content="Kaisa Connor">
-	<meta name="description" content="Pandamonium, an MMO gaming community.">
-	<meta name="robots" content="index, follow">
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-	<link href="css/all.css" rel="stylesheet"> <!-- Font Awesome -->
-	<link href="css/core.css" media="screen" rel="stylesheet" type="text/css">
-	<link href="css/fonts.css" rel="stylesheet"> <!-- Ubuntu font -->
-	<link href="css/menu-style.css" media="screen" rel="stylesheet" type="text/css" title="menu-css">
-	<link href="css/styles.css" media="screen" rel="stylesheet" type="text/css">
-	<link href="css/theme.css" media="screen" rel="stylesheet" type="text/css">
-
-	<!-- Favicon Start-->
-	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
-	<!-- Favicon End-->
-
-	<script type="text/javascript" src="js/default_layout.js"></script>
-	<script type="text/javascript" src="js/menu.js"></script>
-
-	<!-- START OF MENU FUNCTIONALITY -->
-	<script type="text/javascript">
-	    //<!--
-	    // define variables if need be
-	if (typeof submenu_effect === 'undefined') var submenu_effect = {};
-	if (typeof submenu_effect_speed === 'undefined') var submenu_effect_speed = {};
-	if (typeof submenu_button_effect_speed === 'undefined') var submenu_button_effect_speed = {};
-	if (typeof open_submenu_action === 'undefined') var open_submenu_action = {};
-	if (typeof button_gap_distance_subbut === 'undefined') var button_gap_distance_subbut = {};
-	if (typeof gapl_c_hs === 'undefined') var gapl_c_hs = {};
-	if (typeof gapr_c_hs === 'undefined') var gapr_c_hs = {};
-	if (typeof gap_hs_image === 'undefined') var gap_hs_image = {};
-	if (typeof gap_image === 'undefined') var gap_image = {};
-	if (typeof gapl_c === 'undefined') var gapl_c = {};
-	if (typeof gapr_c === 'undefined') var gapr_c = {};
-	if (typeof menu_position === 'undefined') var menu_position = {};
-
-	// array to find out options per module
-	submenu_effect[4648] = "slide";
-	submenu_effect_speed[4648] = "fast";
-	submenu_button_effect_speed[4648] = "very_fast";
-	open_submenu_action[4648] = "hover";
-	button_gap_distance_subbut[4648] = "1";
-	gapl_c_hs[4648] = "";
-	gapr_c_hs[4648] = "";
-	gap_hs_image[4648] = "";
-	gap_image[4648] = "";
-	gapl_c[4648] = "rgba(0,0,0,.50)";
-	gapr_c[4648] = "rgba(255,255,255,.20)";
-	menu_position[4648] = "fixed";
-	    //-->
-	</script>
-	<!-- END OF MENU FUNCTIONALITY -->
-
+    // array to find out options per module
+    submenu_effect[4648] = "slide";
+    submenu_effect_speed[4648] = "fast";
+    submenu_button_effect_speed[4648] = "very_fast";
+    open_submenu_action[4648] = "hover";
+    button_gap_distance_subbut[4648] = "1";
+    gapl_c_hs[4648] = "";
+    gapr_c_hs[4648] = "";
+    gap_hs_image[4648] = "";
+    gap_image[4648] = "";
+    gapl_c[4648] = "rgba(0,0,0,.50)";
+    gapr_c[4648] = "rgba(255,255,255,.20)";
+    menu_position[4648] = "fixed";
+        //-->
+  </script><!-- END OF MENU FUNCTIONALITY -->
 </head>
 
 <body class="dark-theme fixed layout_load" data-dnsme-update-flag="">
-
-<div class="body-wrap-2"><div class="body-wrap-3">
-<div id="page">
-<div class="page-outer-left"></div>
-<div class="page-outer-right"></div>
-<div id="page-wrap">
-<div class="fixed_height_elem" id="above-site"></div>
-<div id="site-body" style="margin-top: 0px;">
-<div class="fixed_height_elem"><table class="section-collection"><tbody><tr class="top">
-<td class="section-border"><div class="decorator-box"></div></td>
-<td id="section-header" class="section-holder section-width-large" style="" data-width="1030">
-<div class="section"> <div class=" container_spacer first">
-<div class="left"></div>
-<div class="right"></div>
-</div><div class="clearing"></div>
-<div class=" first" data-container-id="61267147" data-start-collapsed="0">
-<div class=" container_header">
-<div class="left"></div>
-<div class="right"></div>
-</div>
-<div class="container_body">
-<div class="container_content container-minimized" style="display: none;">
-Container minimized. <a href="javascript:;">Expand</a>
-</div>
-<div class="container_content container-maximized">
-<table class="container_table">
-<tbody><tr class="container_table_row">
-<td class="container_column leftmost rightmost" style="width: 100%">
-<div class="module module_first module_last menu_mod_container">
-<div class="module_content">
-<div class="module_content_wrap">
-<div class="m_hmenu_v2 cust4648">
-<div class="outer-nav-border" style="content: &quot;fixed&quot;;">
-<div class="menu-bg-left"></div>
-<div class="menu-bg-right"></div>
-<div class="first-level-items ul">
-<div class="auto-position-container">
-<div class="front-widgets widgets">
-<div data-id="63568" data-name="Image" class="each-menu-widget image-widget widg63568"><div class="img-container" style="position:relative; left:0px;"><a class="widget-image" href="index.html" target="_self"><img data-speed="0" data-target="_self" data-reg-src="images/pandamonium_small.png" data-hover-src="" src="images/pandamonium_small.png"></a></div></div> </div>
-<div class="menu-margin-left"></div>
-<div class="gap first-gap">
-<span class="gap-l"></span>
-<span class="gap-r"></span>
-</div>
-<div data-id="19804337" class="li has_submenu level-1   ">
-<div class="second-level-bridge" style="width: 75px;"></div>
-<a href="javascript:;" target="_self">
-About<span class="dropdown-icon caret"></span>
-</a>
-<div class="second-level-items ul"><div class="outer-sub-border">
-<div data-id="20027230" class="li level-2">
-<div class="second-level-text">
-<a href="charter.html" target="_self">
-Charter </a>
-</div>
-</div>
-<div data-id="20027231" class="li level-2">
-<div class="second-level-text">
-<a href="history.html" target="_self">
-History </a>
-</div>
-</div>
- <div data-id="20027232" class="li level-2">
-<div class="second-level-text">
-<a href="leadership.html" target="_self">
-Leadership </a>
-</div>
-</div>
-
-</div></div>
-</div>
-<div class="gap">
-<span class="gap-l"></span>
-<span class="gap-r"></span>
-</div>
-<div data-id="20027251" class="li has_submenu level-1   ">
-<div class="second-level-bridge" style="width: 91px;"></div>
-<a href="official_teams.html" target="_self">
-Official Teams<span class="dropdown-icon caret"></span>
-</a>
-<div class="second-level-items ul"><div class="outer-sub-border">
- <div data-id="20027252" class="li has_submenu level-2">
-<div class="second-level-text">
-<a href="chaos_fact.html" target="_self">
-<span class="submenu-item-text">Chaos Fact (SWTOR)</span>
-</a>
-</div>
-<div class="third-level-items ul">
-<div class="outer-sub-border">
-
-</div>
-</div>
-</div>
-<div data-id="20027254" class="li has_submenu level-2">
-<div class="second-level-text">
-<a href="chaos_theory.html" target="_self">
-<span class="submenu-item-text">Chaos Theory (SWTOR)</span>
-</a>
-</div>
-<div class="third-level-items ul">
-<div class="outer-sub-border">
+  <div class="body-wrap-2">
+    <div class="body-wrap-3">
+      <div id="page">
+        <div class="page-outer-left">
+        </div>
 
 
-</div>
-</div>
-</div>
-
-<div data-id="20027257" class="li has_submenu level-2">
-<div class="second-level-text">
-<a href="crimson_nova.html" target="_self">
-<span class="submenu-item-text">Crimson Nova (WoW)</span>
-</a>
-</div>
-<div class="third-level-items ul">
-<div class="outer-sub-border">
-
-</div>
-</div>
-</div>
-
-</div></div>
-</div>
-<div class="gap">
-<span class="gap-l"></span>
-<span class="gap-r"></span>
-</div>
-<div data-id="20027259" class="li has_submenu level-1   ">
-<div class="second-level-bridge" style="width: 105px;"></div>
-<a href="javascript:;" target="_self">
-Multimedia<span class="dropdown-icon caret"></span>
-</a>
-<div class="second-level-items ul"><div class="outer-sub-border">
- <div data-id="20027260" class="li has_submenu level-2">
-<div class="second-level-text">
-<a href="streaming_guidelines.html" target="_self">
-<span class="submenu-item-text">Live Stream</span>
-</a>
-</div>
-<div class="third-level-items ul">
-<div class="outer-sub-border">
-
-<div data-id="20027261" class="li level-3">
-<div class="third-level-bridge"></div>
-<div class="third-level-text">
-<a href="https://www.twitch.tv/sithlord_britt" target="_self">
-Brittany </a>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-<div data-id="20027265" class="li level-2">
-<div class="second-level-text">
-<a href="https://www.designbyhumans.com/shop/pandamoniumguild/" target="_self">
-Store </a>
-</div>
-</div>
- <div data-id="20027266" class="li level-2">
-<div class="second-level-text">
-<a href="https://www.youtube.com/user/pandamoniumguild/playlists" target="_self">
-Videos </a>
-</div>
-</div>
-
-</div></div>
-</div>
-<div class="gap">
-<span class="gap-l"></span>
-<span class="gap-r"></span>
-</div>
-
-<div data-id="20027268" class="li level-1   ">
-<a href="faq.html" target="_self">
-FAQ </a>
-</div>
-<div class="gap">
-<span class="gap-l"></span>
-<span class="gap-r"></span>
-</div>
-
-<div data-id="20027268" class="li level-1   ">
-<a href="apply.html" target="_self">
-Apply </a>
-</div>
-<div class="gap">
-<span class="gap-l"></span>
-<span class="gap-r"></span>
-</div>
-<div class="back-widgets widgets">
-</div> </div>
-</div>
-</div>
-</div>
-</div> </div>
-</div>
-</div> </td>
-</tr>
-</tbody></table>
-</div>
-</div>
-
-<div class=" container_footer">
-<div class="left"></div>
-<div class="right"></div>
-</div>
-</div>
-<div class=" container_spacer last">
-<div class="left"></div>
-<div class="right"></div>
-<div class="middle"></div>
-</div>
-<div class='clearing'></div>
-</div>
-</td>
-<td class="section-border"><div class="decorator-box"></div></td>
-</tr>
-</table>
-</div>
-<div class=""><table class="section-collection"><tr class="top">
-<td class="section-border"><div class="decorator-box"></div></td>
-<td id="section-main" class="section-holder section-width-large" style="" data-width="1030">
-<div class="section"> <div class="fixed_height_elem container_spacer first">
-<div class="left"></div>
-<div class="right"></div>
-</div><div class='clearing'></div>
-<div class="container with-footer first last" data-container-id="61277286" data-start-collapsed="0">
-<div class="fixed_height_elem container_header">
-<div class="left"></div>
-<div class="right"></div>
-</div>
-<div class="container_body">
-<div class="container_left"></div>
-<div class="container_right"></div>
-<div class="container_left_top"></div>
-<div class="container_right_top"></div>
-<div class="container_left_bottom"></div>
-<div class="container_right_bottom"></div>
-<div class="container_content container-minimized" style="display: none;">
-Container minimized. <a href="javascript:;">Expand</a>
-</div>
-<div class="container_content container-maximized">
-<div class="container_inner_l"></div><div class="container_inner_r"></div><div class="container_inner_tl"></div><div class="container_inner_tr"></div><div class="container_inner_bl"></div><div class="container_inner_br"></div> <table class="container_table">
-<tr class="container_table_row">
-<td class="container_column leftmost rightmost" style="width: 100%">
-<div class="module module_first module_last">
-<div class="module_content">
-<div class="module_content_wrap">
-<div class='m_html'><style type="text/css"></style><script type="text/javascript"></script>
-
-<style>
-    /* Change the for specific design elements to Ubuntu */
-    h1, h2, h3, h4, body, input {
-    font-family: "Ubuntu", sans-serif !important;
-    }
-    #page-wrap {
-    font-family: "Ubuntu", sans-serif !important;
-    }
-    
-    .m_hmenu_v2.cust4648 a:link, .m_hmenu_v2.cust4648 a:active, .m_hmenu_v2.cust4648 a:visited, .m_hmenu_v2.cust4648 a:hover, .m_hmenu_v2.cust4648 .dynamic-text {
-    font-family: "Ubuntu", sans-serif !important;
-    }
-    
-    .element_button input, .element_button .button_block {
-    font-family: "Ubuntu", sans-serif !important;
-    }
-    
-    .m_progression .raid .current-difficulty {
-    font-family: "Ubuntu", sans-serif !important;
-    }
-
-    standard_text {
-    font-family: "Ubuntu", sans-serif !important;
-    font-size: 15px;
-    }
-</style>
-
-<div class="footer_header">Official Teams</div>
-<div class="footer_column_inner">
-<span style="font-size:13.2px">You're interested in leading or joining a team? You like the organized structure of working with a set group of people on a set schedule with specific goals? You know to succeed at those goals requires dedication, progression of gearing, and solid teamwork? Pandamonium offers a structure to address all team needs.<br />
-<br />
-<b><span style="color:#dd9323; font-size:16px"><u>Introduction</u></span></b><br />
-We are primarily a casual community. As such, team creation in Pandamonium is a member-driven activity with basic support from <a rel="nofollow noopener" href="leadership.html" class="bbcode_url">Leadership</a>. All members are encouraged to form new teams and there are no restrictions in terms of how they function. The team can be focused on raids, operations, dungeons, adventure zones, battlegrounds, arenas, flashpoints, warzones, achievements, or any other game area which requires multiple people to work together towards an end-goal. You can lead your own team with a set weekly schedule or you can make yourself available on a casual fill-in basis for other teams. All you need to remember is that <i>&quot;Pandamonium members honor their commitments.&quot;</i><br />
-<br />
-<b><span style="color:#dd9323; font-size:16px"><u>Independence</u></span></b><br />
-Teams function as independent clusters within the community. Team Leaders have the power to set their own procedures, loot rules, and schedules. All official teams need merely abide by the Pandamonium <a rel="nofollow noopener" href="charter.html">Charter</a> and related rules.<br />
-<br />
-<b><span style="color:#dd9323; font-size:16px"><u>Getting Started</u></span></b><br />
-If you are interested in joining a team, first check the team pages (currently, <a href="chaos_fact.html">Chaos Fact</a>, <a href="chaos_theory.html">Chaos Theory</a>, and <a href="crimson_nova.html">Crimson Nova</a>) to see if any are recruiting and who the Team Leader is that you should reach out to. If all existing teams are full, you should consider signing up to be a substitute or forming your own team. You can check the Discord pins in #ffxiv_statics, #swtor_raid_teams, or #wow_raid_teams to see who is interested in joining a team or to post your own interest. As a primarily casual community, it may take some time to pull together a solid team that meets your needs. Be patient. For a team to be officially guild sanctioned, the Team Leader must be an active Pandamonium member and the team must be approved by your <a rel="nofollow noopener" href="leadership.html">Chapter Officers</a>. We in turn offer team-specific Discord text and voice chat channels, a team-specific web page with progression and member info, a recruitment pool, and general support from <a href="leadership.html">Leadership</a> (including assistance from the Chapter Officers in crafting recruitment messages and working with you on the most effective way to advertise).<br />
-<br />
-<b><span style="color:#dd9323; font-size:16px"><u>Leading</u></span></b><br />
-You want to form a team but you don't think you're experienced enough to lead one? Keep in mind that leading isn't just about experience. It is oftentimes simply those people willing to put in the extra effort. Pandamonium would love to have as many teams (and hence, Team Leaders) as possible to satisfy members' needs. If you are interested in creating a team, we encourage you to contact your <a rel="nofollow noopener" href="leadership.html">Chapter Officers</a> for more detail about what might be involved.<br />
-<br />
-<b><span style="color:#dd9323; font-size:16px"><u>The Process</u></span></b><br />
-<br />
-<div class="bbcode_indent" style="margin-left:4em">
-<span style="color:#47beb7; font-size:15px"><b><u>For Leaders</u></b></span><br />
-1. What would you like your team’s primary goals to be? How often will you meet up? What content will you focus on? What will the environment be like?<br />
-2. Speak with your Chapter Officers to assist in the initial decision-making and organization prior to posting any specifics on Discord. They will work with you regarding recruiting, loot systems, policies, schedules, and the like.<br />
-3. Find other Pandamonium members with similar team values and goals. The team must have a minimum of 50% Pandamonium members. Once your Chapter Officers have given their blessing, you can use the Pandamonium’s Discord to assist in the process, whether it be to scope out interest in the potential creation of a new team, or to actively recruit.<br />
-4. When you feel like things are solid enough to warrant making it official, communicate this to your Chapter Officers. Once they grant their approval, you will need to provide the following to Kaisa so she can create your team page: (1) the team name; (2) the team focus (<i>e.g.,</i> raiding, achievements, etc.); (3) the Team Leader; (4) the weekly schedule, including start and end times; (5) the team character names and which Pandamonium members, if any, they belong to; and (6) current number of team openings, if any. On a going forward basis, you will need to communicate any changes to the above to Kaisa as well as progression updates, if relevant.<br />
-<br />
-<span style="color:#47beb7; font-size:15px"><b><u>For other Team Members</u></b></span><br />
-1. Review current team openings and contact the Team Leaders for more information.<br />
-2. If there are no current openings, post in the appropriate Discord channel (#ffxiv_statics, #swtor_raid_teams, or #wow_raid_teams) expressing your interest using the following format: Character name - Class (role) - Sub &amp;/or Perm - Availability: S/M/T/W/T/F/Sa – Team Type: casual/midcore/hardcore Example: <i>Alianin Corvus - Warrior (Tank) - Sub &amp; Perm - Availability: M/W/F – Team Type: casual</i>. If you no longer have interest in subbing or finding a team, let a Moderator in our Discord know so they can unpin your post.<br />
-<br />
-<span style="color:#dd2423; font-size:15px""><b>Above all else, remember that forming or joining the right team can take time. Be patient.</b></span>
-</div>
-<br />
-<b><span style="color:#dd9323; font-size:16px"><u>Inactivity</u></span></b><br />
-An official team will be deemed to have disbanded if, in communication with <a rel="nofollow noopener" href="leadership.html">Leadership</a>, one or both of the below criteria are met:<br />
-<br />
-<div class="bbcode_indent" style="margin-left:4em">
-1. The Team Leader has left Pandamonium, Leadership has contacted the remaining members and given them two weeks to reassign that role to another Pandamonium member, and they have not done so.<br />
-2. They have not gathered as a team to &quot;work together towards an end-goal&quot; in 3+ months.</div>
-</span>
-</span>
+        <div class="page-outer-right">
+        </div>
 
 
-</div> </div>
-</div>
-</div> </td>
-</tr>
-</table>
-</div>
-</div>
-<div class="fixed_height_elem container_footer">
-<div class="left"></div>
-<div class="right"></div>
-</div>
-</div>
-<div class="fixed_height_elem container_spacer last">
-<div class="left"></div>
-<div class="right"></div>
-<div class="middle"></div>
-</div>
-<div class='clearing'></div>
-</div>
-</td>
-<td class="section-border"><div class="decorator-box"></div></td>
-</tr>
-</table>
-</div>
-<div class="fixed_height_elem"><table class="section-collection"><tr class="top">
-<td class="section-border"><div class="decorator-box"></div></td>
-<td id="section-footer" class="section-holder section-width-large" style="" data-width="1030">
-<div class="section"> <div class=" container_spacer first">
-<div class="left"></div>
-<div class="right"></div>
-</div><div class='clearing'></div>
-<div class="container first last" data-container-id="57107210" data-start-collapsed="0">
-<div class=" container_header">
-<div class="left"></div>
-<div class="right"></div>
-</div>
-<div class="container_body">
-<div class="container_left"></div>
-<div class="container_right"></div>
- <div class="container_left_top"></div>
-<div class="container_right_top"></div>
-<div class="container_left_bottom"></div>
-<div class="container_right_bottom"></div>
-<div class="container_content container-minimized" style="display: none;">
-Container minimized. <a href="javascript:;">Expand</a>
-</div>
-<div class="container_content container-maximized">
-<div class="container_inner_l"></div><div class="container_inner_r"></div><div class="container_inner_tl"></div><div class="container_inner_tr"></div><div class="container_inner_bl"></div><div class="container_inner_br"></div> <table class="container_table">
-<tr class="container_table_row">
-<td class="container_column leftmost rightmost" style="width: 100%">
-<div class="module module_first module_last">
-<div class="module_content">
-<div class="module_content_wrap">
-<div class='m_html'><style type="text/css">.footer_block {
-    background-color: #0c0c0c;
-    position:relative;
-    border-top:1px solid #fabb0b;
-    opacity:0;
-}
-
-.footer_inner {
-    width: 1080px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.layout_load .footer_block{
-	opacity:1;
-}
-
-.footer_column {
-    width: 33.3%;
-    float: left;
-}
-
-.footer_column:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.footer_column_inner {
-padding: 10px;
-margin-left: 10px;
-margin-right: 10px;
-}
-
-.footer_column h2 {
-    color: #fff;
-    font-size: 22px;
-}
-
-.footer_logo {
-    width: 230px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.foot_left a {
-    opacity: 0.8;
-}
-
-.foot_left a:hover {
-    opacity: 1;
-}
+        <div id="page-wrap">
+          <div class="fixed_height_elem" id="above-site">
+          </div>
 
 
+          <div id="site-body" style="margin-top: 0px;">
+            <div class="fixed_height_elem">
+              <table class="section-collection">
+                <tbody>
+                  <tr class="top">
+                    <td class="section-border">
+                      <div class="decorator-box">
+                      </div>
+                    </td>
 
-.foot_left {
-    text-align: left;
-}
+                    <td class="section-holder section-width-large" data-width="1030" id="section-header" style="">
+                      <div class="section">
+                        <div class=" container_spacer first">
+                          <div class="left">
+                          </div>
 
-.foot_right {
 
-}
+                          <div class="right">
+                          </div>
+                        </div>
 
-.foot_right .drodpown {
-    position: relative;
-}
 
-#page .foot_right .dropdown-menu {
-    bottom: 100%;
-    right: 0;
-    left: inherit;
-    top: inherit;
-    text-align: center;
-}
+                        <div class="clearing">
+                        </div>
 
-.foot_right span,.foot_right a {
-    vertical-align: middle;
-    display: block;
-    margin-bottom: 5px;
-    font-size: 14px;
-}
 
-.foot_right a {
-    display: inline-block;
-}
+                        <div class=" first" data-container-id="61267147" data-start-collapsed="0">
+                          <div class=" container_header">
+                            <div class="left">
+                            </div>
 
-#page #section-footer .foot_right .caret {
-    border-top-color: #fabb0b;
-}
 
-#page #section-footer .foot_right .open .caret,#page #section-footer .foot_right a:hover .caret {
-    border-top-color: #428fc2;
-    color: #428fc2 !important;
-}
+                            <div class="right">
+                            </div>
+                          </div>
 
-.copyright {
-    padding: 0px;
-    color: #aaa;
-    box-sizing: border-box;
-    margin-left: auto;
-    margin-right: auto;
-    line-height:18px;
-    font-size:10px;
-    letter-spacing: 1px;
-}
 
-.insert_links {
-    font-size:18px;
-    line-height:20px;
-    
-}
-.foot_right .footer_column_inner{
+                          <div class="container_body">
+                            <div class="container_content container-minimized" style="display: none;">
+                              Container minimized. <a href="javascript:;">Expand</a>
+                            </div>
 
-}
-.footer_header{
-    color:#FAE534;
-    padding:10px;
-    margin-left:10px;
-    margin-right:10px;
-    margin-top:10px;
-    text-align:left;
-    font-size:14px;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-.social_insert>li{
-    display:inline-block;
-}
-.social_insert li a{
-    width:60px;
-    line-height:60px;
-    background:#222 !important;
-    text-align:center;
-    display:inline-block;
-    font-size:18px;
-    margin-bottom:3px;
-    margin-right:3px;
-}
-.social_insert li a:hover{
-    
-    color:#fff !important;
-}
-.about{
-    line-height:20px;
-}
-.logo img{
-    display:block;
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto; 
-}
-.footer_block .like_insert{
-    display:none;
-}
-.socials {
-    float: center;
-    margin-top: 2px;
-    margin-bottom: -2px;
-}
-.socials a {
-    font-size: 18px;
-    margin-right: 3px;
-    width: 30px;
-    line-height: 30px;
-    text-align: center;
-    border: 1px solid #666;
-    display: inline-block;
-    color: #666;
-    transition: color .25s;
-}
-.fab:hover {
-    color:#FAE534;
-}
-.fas:hover {
-    color:#FAE534;
-}</style>
 
-<table class="section-collection" border="0">
-<tbody><tr class="top">
-<td width="100%" valign="top">
-<div class="footer_column_inner">
-<center><a class="logo" href="https://www.pandamoniumguild.com/"><img src="images/panda_logo_200.png" width="200"></a></center>
-<div class="footer_column_inner">
+                            <div class="container_content container-maximized">
+                              <table class="container_table">
+                                <tbody>
+                                  <tr class="container_table_row">
+                                    <td class="container_column leftmost rightmost" style="width: 100%">
+                                      <div class="module module_first module_last menu_mod_container">
+                                        <div class="module_content">
+                                          <div class="module_content_wrap">
+                                            <div class="m_hmenu_v2 cust4648">
+                                              <div class="outer-nav-border" style="content: &quot;fixed&quot;;">
+                                                <div class="menu-bg-left">
+                                                </div>
 
-<center>
-<span class="socials">
-<a target="_blank" title="Discord" href="https://discord.gg/AbRtyr5"><i class="fab fa-discord"></i></a>
-<a target="_blank" title="FFXIV Lodestone" href="https://na.finalfantasyxiv.com/lodestone/freecompany/9232379236109589336/member/?gcid=&gcid=&gcid=&gcid=&order=3"><i class="fas fa-fire"></i></a>
-<a target="_blank" title="Github" href="https://github.com/pandaMMO"><i class="fab fa-github-square"></i></a>
-<a target="_blank" title="Steam" href="https://steamcommunity.com/groups/PandamoniumMMO"><i class="fab fa-steam"></i></a>
-<a target="_blank" title="WoW Armory" href="https://worldofwarcraft.com/en-us/guild/us/zuljin/pandamonium"><i class="fab fa-battle-net"></i></a>
-<a target="_blank" title="YouTube" href="https://www.youtube.com/user/pandamoniumguild"><i class="fab fa-youtube"></i></a>
-</span>
-</center>
 
-</div>
-<center><span class="copyright">© 2004-2019 Pandamonium | All Rights Reserved.</span></center>
-</div>
-</td>
-</tr>
-</tbody></table></div> </div>
-</div>
-</div> </td>
-</tr>
-</tbody></table>
-</div>
-</div>
-<div class=" container_footer">
-<div class="left"></div>
-<div class="right"></div>
-</div>
-</div>
-<div class=" container_spacer last">
-<div class="left"></div>
-<div class="right"></div>
-<div class="middle"></div>
-</div>
-<div class="clearing"></div>
-</div>
-</td>
-<td class="section-border"><div class="decorator-box"></div></td>
-</tr>
-</tbody></table>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+                                                <div class="menu-bg-right">
+                                                </div>
+
+
+                                                <div class="first-level-items ul">
+                                                  <div class="auto-position-container">
+                                                    <div class="front-widgets widgets">
+                                                      <div class="each-menu-widget image-widget widg63568" data-id="63568" data-name="Image">
+                                                        <div class="img-container" style="position:relative; left:0px;">
+                                                          <a class="widget-image" href="index.html" target="_self"><img data-hover-src="" data-reg-src="images/pandamonium_small.png" data-speed="0" data-target="_self" src="images/pandamonium_small.png"></a>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+
+
+                                                    <div class="menu-margin-left">
+                                                    </div>
+
+
+                                                    <div class="gap first-gap">
+                                                      <span class="gap-l"></span> <span class="gap-r"></span>
+                                                    </div>
+
+
+                                                    <div class="li has_submenu level-1" data-id="19804337">
+                                                      <div class="second-level-bridge" style="width: 75px;">
+                                                      </div>
+                                                      <a href="javascript:;" target="_self">About<span class="dropdown-icon caret"></span></a>
+
+                                                      <div class="second-level-items ul">
+                                                        <div class="outer-sub-border">
+                                                          <div class="li level-2" data-id="20027230">
+                                                            <div class="second-level-text">
+                                                              <a href="charter.html" target="_self">Charter</a>
+                                                            </div>
+                                                          </div>
+
+
+                                                          <div class="li level-2" data-id="20027231">
+                                                            <div class="second-level-text">
+                                                              <a href="history.html" target="_self">History</a>
+                                                            </div>
+                                                          </div>
+
+
+                                                          <div class="li level-2" data-id="20027232">
+                                                            <div class="second-level-text">
+                                                              <a href="leadership.html" target="_self">Leadership</a>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+
+
+                                                    <div class="gap">
+                                                      <span class="gap-l"></span> <span class="gap-r"></span>
+                                                    </div>
+
+
+                                                    <div class="li has_submenu level-1" data-id="20027251">
+                                                      <div class="second-level-bridge" style="width: 91px;">
+                                                      </div>
+                                                      <a href="official_teams.html" target="_self">Official Teams<span class="dropdown-icon caret"></span></a>
+
+                                                      <div class="second-level-items ul">
+                                                        <div class="outer-sub-border">
+                                                          <div class="li has_submenu level-2" data-id="20027252">
+                                                            <div class="second-level-text">
+                                                              <a href="chaos_fact.html" target="_self"><span class="submenu-item-text">Chaos Fact (SWTOR)</span></a>
+                                                            </div>
+
+
+                                                            <div class="third-level-items ul">
+                                                              <div class="outer-sub-border">
+                                                              </div>
+                                                            </div>
+                                                          </div>
+
+
+                                                          <div class="li has_submenu level-2" data-id="20027254">
+                                                            <div class="second-level-text">
+                                                              <a href="chaos_theory.html" target="_self"><span class="submenu-item-text">Chaos Theory (SWTOR)</span></a>
+                                                            </div>
+
+
+                                                            <div class="third-level-items ul">
+                                                              <div class="outer-sub-border">
+                                                              </div>
+                                                            </div>
+                                                          </div>
+
+
+                                                          <div class="li has_submenu level-2" data-id="20027257">
+                                                            <div class="second-level-text">
+                                                              <a href="crimson_nova.html" target="_self"><span class="submenu-item-text">Crimson Nova (WoW)</span></a>
+                                                            </div>
+
+
+                                                            <div class="third-level-items ul">
+                                                              <div class="outer-sub-border">
+                                                              </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+
+
+                                                    <div class="gap">
+                                                      <span class="gap-l"></span> <span class="gap-r"></span>
+                                                    </div>
+
+
+                                                    <div class="li has_submenu level-1" data-id="20027259">
+                                                      <div class="second-level-bridge" style="width: 105px;">
+                                                      </div>
+                                                      <a href="javascript:;" target="_self">Multimedia<span class="dropdown-icon caret"></span></a>
+
+                                                      <div class="second-level-items ul">
+                                                        <div class="outer-sub-border">
+                                                          <div class="li has_submenu level-2" data-id="20027260">
+                                                            <div class="second-level-text">
+                                                              <a href="streaming_guidelines.html" target="_self"><span class="submenu-item-text">Live Stream</span></a>
+                                                            </div>
+
+
+                                                            <div class="third-level-items ul">
+                                                              <div class="outer-sub-border">
+                                                                <div class="li level-3" data-id="20027261">
+                                                                  <div class="third-level-bridge">
+                                                                  </div>
+
+
+                                                                  <div class="third-level-text">
+                                                                    <a href="https://www.twitch.tv/sithlord_britt" target="_self">Brittany</a>
+                                                                  </div>
+                                                                </div>
+                                                              </div>
+                                                            </div>
+                                                          </div>
+
+
+                                                          <div class="li level-2" data-id="20027265">
+                                                            <div class="second-level-text">
+                                                              <a href="https://www.designbyhumans.com/shop/pandamoniumguild/" target="_self">Store</a>
+                                                            </div>
+                                                          </div>
+
+
+                                                          <div class="li level-2" data-id="20027266">
+                                                            <div class="second-level-text">
+                                                              <a href="https://www.youtube.com/user/pandamoniumguild/playlists" target="_self">Videos</a>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+
+
+                                                    <div class="gap">
+                                                      <span class="gap-l"></span> <span class="gap-r"></span>
+                                                    </div>
+
+
+                                                    <div class="li level-1" data-id="20027268">
+                                                      <a href="faq.html" target="_self">FAQ</a>
+                                                    </div>
+
+
+                                                    <div class="gap">
+                                                      <span class="gap-l"></span> <span class="gap-r"></span>
+                                                    </div>
+
+
+                                                    <div class="li level-1" data-id="20027268">
+                                                      <a href="apply.html" target="_self">Apply</a>
+                                                    </div>
+
+
+                                                    <div class="gap">
+                                                      <span class="gap-l"></span> <span class="gap-r"></span>
+                                                    </div>
+
+
+                                                    <div class="back-widgets widgets">
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+
+
+                          <div class=" container_footer">
+                            <div class="left">
+                            </div>
+
+
+                            <div class="right">
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class=" container_spacer last">
+                          <div class="left">
+                          </div>
+
+
+                          <div class="right">
+                          </div>
+
+
+                          <div class="middle">
+                          </div>
+                        </div>
+
+
+                        <div class='clearing'>
+                        </div>
+                      </div>
+                    </td>
+
+                    <td class="section-border">
+                      <div class="decorator-box">
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+
+            <div class="">
+              <table class="section-collection">
+                <tr class="top">
+                  <td class="section-border">
+                    <div class="decorator-box">
+                    </div>
+                  </td>
+
+                  <td class="section-holder section-width-large" data-width="1030" id="section-main" style="">
+                    <div class="section">
+                      <div class="fixed_height_elem container_spacer first">
+                        <div class="left">
+                        </div>
+
+
+                        <div class="right">
+                        </div>
+                      </div>
+
+
+                      <div class='clearing'>
+                      </div>
+
+
+                      <div class="container with-footer first last" data-container-id="61277286" data-start-collapsed="0">
+                        <div class="fixed_height_elem container_header">
+                          <div class="left">
+                          </div>
+
+
+                          <div class="right">
+                          </div>
+                        </div>
+
+
+                        <div class="container_body">
+                          <div class="container_left">
+                          </div>
+
+
+                          <div class="container_right">
+                          </div>
+
+
+                          <div class="container_left_top">
+                          </div>
+
+
+                          <div class="container_right_top">
+                          </div>
+
+
+                          <div class="container_left_bottom">
+                          </div>
+
+
+                          <div class="container_right_bottom">
+                          </div>
+
+
+                          <div class="container_content container-minimized" style="display: none;">
+                            Container minimized. <a href="javascript:;">Expand</a>
+                          </div>
+
+
+                          <div class="container_content container-maximized">
+                            <div class="container_inner_l">
+                            </div>
+
+
+                            <div class="container_inner_r">
+                            </div>
+
+
+                            <div class="container_inner_tl">
+                            </div>
+
+
+                            <div class="container_inner_tr">
+                            </div>
+
+
+                            <div class="container_inner_bl">
+                            </div>
+
+
+                            <div class="container_inner_br">
+                            </div>
+
+
+                            <table class="container_table">
+                              <tr class="container_table_row">
+                                <td class="container_column leftmost rightmost" style="width: 100%">
+                                  <div class="module module_first module_last">
+                                    <div class="module_content">
+                                      <div class="module_content_wrap">
+                                        <div class='m_html'>
+                                          <style type="text/css">
+                                          </style>
+                                          <script type="text/javascript">
+                                          </script>
+                                          <style>
+                                          /* Change the for specific design elements to Ubuntu */
+                                          h1, h2, h3, h4, body, input {
+                                          font-family: "Ubuntu", sans-serif !important;
+                                          }
+                                          #page-wrap {
+                                          font-family: "Ubuntu", sans-serif !important;
+                                          }
+
+                                          .m_hmenu_v2.cust4648 a:link, .m_hmenu_v2.cust4648 a:active, .m_hmenu_v2.cust4648 a:visited, .m_hmenu_v2.cust4648 a:hover, .m_hmenu_v2.cust4648 .dynamic-text {
+                                          font-family: "Ubuntu", sans-serif !important;
+                                          }
+
+                                          .element_button input, .element_button .button_block {
+                                          font-family: "Ubuntu", sans-serif !important;
+                                          }
+
+                                          .m_progression .raid .current-difficulty {
+                                          font-family: "Ubuntu", sans-serif !important;
+                                          }
+
+                                          standard_text {
+                                          font-family: "Ubuntu", sans-serif !important;
+                                          font-size: 15px;
+                                          }
+                                          </style>
+
+                                          <div class="footer_header">
+                                            Official Teams
+                                          </div>
+
+
+                                          <div class="footer_column_inner">
+                                            <span style="font-size:13.2px">You're interested in leading or joining a team? You like the organized structure of working with a set group of people on a set schedule with specific goals? You know to succeed at those goals requires dedication, progression of gearing, and solid teamwork? Pandamonium offers a structure to address all team needs.<br>
+                                            <br>
+                                            <b><span style="color:#dd9323; font-size:16px"><u>Introduction</u></span></b><br>
+                                            We are primarily a casual community. As such, team creation in Pandamonium is a member-driven activity with basic support from <a class="bbcode_url" href="leadership.html" rel="nofollow noopener">Leadership</a>. All members are encouraged to form new teams and there are no restrictions in terms of how they function. The team can be focused on raids, operations, dungeons, adventure zones, battlegrounds, arenas, flashpoints, warzones, achievements, or any other game area which requires multiple people to work together towards an end-goal. You can lead your own team with a set weekly schedule or you can make yourself available on a casual fill-in basis for other teams. All you need to remember is that <i>&quot;Pandamonium members honor their commitments.&quot;</i><br>
+                                            <br>
+                                            <b><span style="color:#dd9323; font-size:16px"><u>Independence</u></span></b><br>
+                                            Teams function as independent clusters within the community. Team Leaders have the power to set their own procedures, loot rules, and schedules. All official teams need merely abide by the Pandamonium <a href="charter.html" rel="nofollow noopener">Charter</a> and related rules.<br>
+                                            <br>
+                                            <b><span style="color:#dd9323; font-size:16px"><u>Getting Started</u></span></b><br>
+                                            If you are interested in joining a team, first check the team pages (currently, <a href="chaos_fact.html">Chaos Fact</a>, <a href="chaos_theory.html">Chaos Theory</a>, and <a href="crimson_nova.html">Crimson Nova</a>) to see if any are recruiting and who the Team Leader is that you should reach out to. If all existing teams are full, you should consider signing up to be a substitute or forming your own team. You can check the Discord pins in #ffxiv_statics, #swtor_raid_teams, or #wow_raid_teams to see who is interested in joining a team or to post your own interest. As a primarily casual community, it may take some time to pull together a solid team that meets your needs. Be patient. For a team to be officially guild sanctioned, the Team Leader must be an active Pandamonium member and the team must be approved by your <a href="leadership.html" rel="nofollow noopener">Chapter Officers</a>. We in turn offer team-specific Discord text and voice chat channels, a team-specific web page with progression and member info, a recruitment pool, and general support from <a href="leadership.html">Leadership</a> (including assistance from the Chapter Officers in crafting recruitment messages and working with you on the most effective way to advertise).<br>
+                                            <br>
+                                            <b><span style="color:#dd9323; font-size:16px"><u>Leading</u></span></b><br>
+                                            You want to form a team but you don't think you're experienced enough to lead one? Keep in mind that leading isn't just about experience. It is oftentimes simply those people willing to put in the extra effort. Pandamonium would love to have as many teams (and hence, Team Leaders) as possible to satisfy members' needs. If you are interested in creating a team, we encourage you to contact your <a href="leadership.html" rel="nofollow noopener">Chapter Officers</a> for more detail about what might be involved.<br>
+                                            <br>
+                                            <b><span style="color:#dd9323; font-size:16px"><u>The Process</u></span></b><br>
+                                            <br></span>
+
+                                            <div class="bbcode_indent" style="margin-left:4em">
+                                              <span style="color:#47beb7; font-size:15px"><b><u>For Leaders</u></b></span><br>
+                                              1. What would you like your team’s primary goals to be? How often will you meet up? What content will you focus on? What will the environment be like?<br>
+                                              2. Speak with your Chapter Officers to assist in the initial decision-making and organization prior to posting any specifics on Discord. They will work with you regarding recruiting, loot systems, policies, schedules, and the like.<br>
+                                              3. Find other Pandamonium members with similar team values and goals. The team must have a minimum of 50% Pandamonium members. Once your Chapter Officers have given their blessing, you can use the Pandamonium’s Discord to assist in the process, whether it be to scope out interest in the potential creation of a new team, or to actively recruit.<br>
+                                              4. When you feel like things are solid enough to warrant making it official, communicate this to your Chapter Officers. Once they grant their approval, you will need to provide the following to Kaisa so she can create your team page: (1) the team name; (2) the team focus (<i>e.g.,</i> raiding, achievements, etc.); (3) the Team Leader; (4) the weekly schedule, including start and end times; (5) the team character names and which Pandamonium members, if any, they belong to; and (6) current number of team openings, if any. On a going forward basis, you will need to communicate any changes to the above to Kaisa as well as progression updates, if relevant.<br>
+                                              <br>
+                                              <span style="color:#47beb7; font-size:15px"><b><u>For other Team Members</u></b></span><br>
+                                              1. Review current team openings and contact the Team Leaders for more information.<br>
+                                              2. If there are no current openings, post in the appropriate Discord channel (#ffxiv_statics, #swtor_raid_teams, or #wow_raid_teams) expressing your interest using the following format: Character name - Class (role) - Sub &amp;/or Perm - Availability: S/M/T/W/T/F/Sa – Team Type: casual/midcore/hardcore Example: <i>Alianin Corvus - Warrior (Tank) - Sub &amp; Perm - Availability: M/W/F – Team Type: casual</i>. If you no longer have interest in subbing or finding a team, let a Moderator in our Discord know so they can unpin your post.<br>
+                                              <br>
+                                              <span style="color:#dd2423; font-size:15px"><b>Above all else, remember that forming or joining the right team can take time. Be patient.</b></span>
+                                            </div>
+                                            <br>
+                                            <b><span style="color:#dd9323; font-size:16px"><u>Inactivity</u></span></b><br>
+                                            An official team will be deemed to have disbanded if, in communication with <a href="leadership.html" rel="nofollow noopener">Leadership</a>, one or both of the below criteria are met:<br>
+                                            <br>
+
+
+                                            <div class="bbcode_indent" style="margin-left:4em">
+                                              1. The Team Leader has left Pandamonium, Leadership has contacted the remaining members and given them two weeks to reassign that role to another Pandamonium member, and they have not done so.<br>
+                                              2. They have not gathered as a team to &quot;work together towards an end-goal&quot; in 3+ months.
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </div>
+
+
+                        <div class="fixed_height_elem container_footer">
+                          <div class="left">
+                          </div>
+
+
+                          <div class="right">
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="fixed_height_elem container_spacer last">
+                        <div class="left">
+                        </div>
+
+
+                        <div class="right">
+                        </div>
+
+
+                        <div class="middle">
+                        </div>
+                      </div>
+
+
+                      <div class='clearing'>
+                      </div>
+                    </div>
+                  </td>
+
+                  <td class="section-border">
+                    <div class="decorator-box">
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+
+            <div class="fixed_height_elem">
+              <table class="section-collection">
+                <tr class="top">
+                  <td class="section-border">
+                    <div class="decorator-box">
+                    </div>
+                  </td>
+
+                  <td class="section-holder section-width-large" data-width="1030" id="section-footer" style="">
+                    <div class="section">
+                      <div class=" container_spacer first">
+                        <div class="left">
+                        </div>
+
+
+                        <div class="right">
+                        </div>
+                      </div>
+
+
+                      <div class='clearing'>
+                      </div>
+
+
+                      <div class="container first last" data-container-id="57107210" data-start-collapsed="0">
+                        <div class=" container_header">
+                          <div class="left">
+                          </div>
+
+
+                          <div class="right">
+                          </div>
+                        </div>
+
+
+                        <div class="container_body">
+                          <div class="container_left">
+                          </div>
+
+
+                          <div class="container_right">
+                          </div>
+
+
+                          <div class="container_left_top">
+                          </div>
+
+
+                          <div class="container_right_top">
+                          </div>
+
+
+                          <div class="container_left_bottom">
+                          </div>
+
+
+                          <div class="container_right_bottom">
+                          </div>
+
+
+                          <div class="container_content container-minimized" style="display: none;">
+                            Container minimized. <a href="javascript:;">Expand</a>
+                          </div>
+
+
+                          <div class="container_content container-maximized">
+                            <div class="container_inner_l">
+                            </div>
+
+
+                            <div class="container_inner_r">
+                            </div>
+
+
+                            <div class="container_inner_tl">
+                            </div>
+
+
+                            <div class="container_inner_tr">
+                            </div>
+
+
+                            <div class="container_inner_bl">
+                            </div>
+
+
+                            <div class="container_inner_br">
+                            </div>
+
+
+                            <table class="container_table">
+                              <tr class="container_table_row">
+                                <td class="container_column leftmost rightmost" style="width: 100%">
+                                  <div class="module module_first module_last">
+                                    <div class="module_content">
+                                      <div class="module_content_wrap">
+                                        <div class='m_html'>
+                                          <style type="text/css">
+                                          .footer_block {
+                                          background-color: #0c0c0c;
+                                          position:relative;
+                                          border-top:1px solid #fabb0b;
+                                          opacity:0;
+                                          }
+
+                                          .footer_inner {
+                                          width: 1080px;
+                                          margin-left: auto;
+                                          margin-right: auto;
+                                          }
+                                          .layout_load .footer_block{
+                                          opacity:1;
+                                          }
+
+                                          .footer_column {
+                                          width: 33.3%;
+                                          float: left;
+                                          }
+
+                                          .footer_column:after {
+                                          content: "";
+                                          display: table;
+                                          clear: both;
+                                          }
+
+                                          .footer_column_inner {
+                                          padding: 10px;
+                                          margin-left: 10px;
+                                          margin-right: 10px;
+                                          }
+
+                                          .footer_column h2 {
+                                          color: #fff;
+                                          font-size: 22px;
+                                          }
+
+                                          .footer_logo {
+                                          width: 230px;
+                                          display: block;
+                                          margin-left: auto;
+                                          margin-right: auto;
+                                          }
+
+                                          .foot_left a {
+                                          opacity: 0.8;
+                                          }
+
+                                          .foot_left a:hover {
+                                          opacity: 1;
+                                          }
+
+
+
+                                          .foot_left {
+                                          text-align: left;
+                                          }
+
+                                          .foot_right {
+
+                                          }
+
+                                          .foot_right .drodpown {
+                                          position: relative;
+                                          }
+
+                                          #page .foot_right .dropdown-menu {
+                                          bottom: 100%;
+                                          right: 0;
+                                          left: inherit;
+                                          top: inherit;
+                                          text-align: center;
+                                          }
+
+                                          .foot_right span,.foot_right a {
+                                          vertical-align: middle;
+                                          display: block;
+                                          margin-bottom: 5px;
+                                          font-size: 14px;
+                                          }
+
+                                          .foot_right a {
+                                          display: inline-block;
+                                          }
+
+                                          #page #section-footer .foot_right .caret {
+                                          border-top-color: #fabb0b;
+                                          }
+
+                                          #page #section-footer .foot_right .open .caret,#page #section-footer .foot_right a:hover .caret {
+                                          border-top-color: #428fc2;
+                                          color: #428fc2 !important;
+                                          }
+
+                                          .copyright {
+                                          padding: 0px;
+                                          color: #aaa;
+                                          box-sizing: border-box;
+                                          margin-left: auto;
+                                          margin-right: auto;
+                                          line-height:18px;
+                                          font-size:10px;
+                                          letter-spacing: 1px;
+                                          }
+
+                                          .insert_links {
+                                          font-size:18px;
+                                          line-height:20px;
+
+                                          }
+                                          .foot_right .footer_column_inner{
+
+                                          }
+                                          .footer_header{
+                                          color:#FAE534;
+                                          padding:10px;
+                                          margin-left:10px;
+                                          margin-right:10px;
+                                          margin-top:10px;
+                                          text-align:left;
+                                          font-size:14px;
+                                          font-weight: 800;
+                                          text-transform: uppercase;
+                                          letter-spacing: 2px;
+                                          }
+                                          .social_insert>li{
+                                          display:inline-block;
+                                          }
+                                          .social_insert li a{
+                                          width:60px;
+                                          line-height:60px;
+                                          background:#222 !important;
+                                          text-align:center;
+                                          display:inline-block;
+                                          font-size:18px;
+                                          margin-bottom:3px;
+                                          margin-right:3px;
+                                          }
+                                          .social_insert li a:hover{
+
+                                          color:#fff !important;
+                                          }
+                                          .about{
+                                          line-height:20px;
+                                          }
+                                          .logo img{
+                                          display:block;
+                                          width: 200px;
+                                          margin-left: auto;
+                                          margin-right: auto; 
+                                          }
+                                          .footer_block .like_insert{
+                                          display:none;
+                                          }
+                                          .socials {
+                                          float: center;
+                                          margin-top: 2px;
+                                          margin-bottom: -2px;
+                                          }
+                                          .socials a {
+                                          font-size: 18px;
+                                          margin-right: 3px;
+                                          width: 30px;
+                                          line-height: 30px;
+                                          text-align: center;
+                                          border: 1px solid #666;
+                                          display: inline-block;
+                                          color: #666;
+                                          transition: color .25s;
+                                          }
+                                          .fab:hover {
+                                          color:#FAE534;
+                                          }
+                                          .fas:hover {
+                                          color:#FAE534;
+                                          }
+                                          </style>
+
+                                          <table border="0" class="section-collection">
+                                            <tbody>
+                                              <tr class="top">
+                                                <td valign="top" width="100%">
+                                                  <div class="footer_column_inner">
+                                                    <center>
+                                                      <a class="logo" href="https://www.pandamoniumguild.com/"><img src="images/panda_logo_200.png" width="200"></a>
+                                                    </center>
+
+
+                                                    <div class="footer_column_inner">
+                                                      <center>
+                                                        <span class="socials"><a href="https://discord.gg/AbRtyr5" target="_blank" title="Discord"><i class="fab fa-discord"></i></a> <a href="https://na.finalfantasyxiv.com/lodestone/freecompany/9232379236109589336/member/?gcid=&gcid=&gcid=&gcid=&order=3" target="_blank" title="FFXIV Lodestone"><i class="fas fa-fire"></i></a> <a href="https://github.com/pandaMMO" target="_blank" title="Github"><i class="fab fa-github-square"></i></a> <a href="https://steamcommunity.com/groups/PandamoniumMMO" target="_blank" title="Steam"><i class="fab fa-steam"></i></a> <a href="https://worldofwarcraft.com/en-us/guild/us/zuljin/pandamonium" target="_blank" title="WoW Armory"><i class="fab fa-battle-net"></i></a> <a href="https://www.youtube.com/user/pandamoniumguild" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a></span>
+                                                      </center>
+                                                    </div>
+
+
+                                                    <center>
+                                                      <span class="copyright">© 2004-2019 Pandamonium | All Rights Reserved.</span>
+                                                    </center>
+                                                  </div>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </div>
+
+
+                        <div class=" container_footer">
+                          <div class="left">
+                          </div>
+
+
+                          <div class="right">
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class=" container_spacer last">
+                        <div class="left">
+                        </div>
+
+
+                        <div class="right">
+                        </div>
+
+
+                        <div class="middle">
+                        </div>
+                      </div>
+
+
+                      <div class="clearing">
+                      </div>
+                    </div>
+                  </td>
+
+                  <td class="section-border">
+                    <div class="decorator-box">
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
