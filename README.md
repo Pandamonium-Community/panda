@@ -1,5 +1,6 @@
 # Pandamonium
-Credits:
+
+# Credits
 
 	Designer:
 		Kaisa Connor (Discord Kaisa#0265)
@@ -12,3 +13,8 @@ Credits:
 
 	Original Theme Inspiration:
 		Metallurgic SWTOR by Maxim (enjin.com/profile/maxim_enjin)
+
+
+# License
+
+	Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) (https://pandaguild.io/LICENSE.txt)
