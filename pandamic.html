@@ -1,0 +1,1489 @@
+﻿<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <title>Pandamonium: Pandamic</title>
+  <meta charset="UTF-8">
+  <meta content="en-US" http-equiv="Content-Language">
+  <meta content="upgrade-insecure-requests" http-equiv="Content-Security-Policy">
+  <meta content="Kaisa Connor" name="author">
+  <meta content="Pandamonium, an MMO gaming community." name="description">
+  <meta content="index, follow" name="robots">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+
+  <link href="css/default.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="css/menu.css" media="screen" rel="stylesheet" title="menu-css" type="text/css">
+
+  <!-- FAVICON START -->
+  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="images/favicon.ico" rel="icon" type="image/x-icon">
+  <!-- FAVICON END -->
+
+  <!-- START OF MENU FUNCTIONALITY -->
+  <style>
+  /* Button Background - No Hover */
+  .dropbtn {
+    padding: 14px;
+    font-weight: 400;
+    text-align: left;
+    border: none;
+    background-color: #3B3B3B;
+    font-family: Ubuntu, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+  }
+
+  /* Link Text Stays White */
+  .dropbtn a {
+  color: inherit;
+  text-decoration: none;
+  }
+
+  /* Link Hover Text Changes */
+  .dropbtn a:hover {
+  color: #52C6BE;
+  text-decoration: none;
+  }
+
+  /* Overall Button Positioning */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    height: 44px;
+    line-height: 44px;
+    vertical-align: top;
+    margin: 0 -2px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    top: 7px;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  /* Dropdown Button Background - No Hover */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #262626;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  /* Dropdown Font */
+  .dropdown-content a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: Ubuntu, sans-serif;
+    font-size: 13px;
+  }
+
+  /* Dropdown Background - Active */
+  .dropdown-content a:hover {
+    background-color: #262626;
+    color: #52C6BE;
+  }
+
+  /* Dropdown Background - Inactive */
+  .dropdown:hover .dropdown-content {
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #262626;
+    border: 1px;
+    border-style: solid;
+    border-color: #000000;
+  }
+
+  /* Button Background - Hover */
+  .dropdown:hover .dropbtn {
+    background-color: #060606;
+  }
+  </style>
+  <!-- END OF MENU FUNCTIONALITY -->
+
+  <!-- START OF UBUNTU FONT -->
+  <style>
+  /* cyrillic-ext */
+  @font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(fonts/ubuntu-cyrillic-ext.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+
+  /* cyrillic */
+  @font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(fonts/ubuntu-cyrillic.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+
+  /* greek-ext */
+  @font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(fonts/ubuntu-greek-ext.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+  }
+
+  /* greek */
+  @font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(fonts/ubuntu-greek.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+  }
+
+  /* latin-ext */
+  @font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(fonts/ubuntu-latin-ext.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  /* latin */
+  @font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(fonts/ubuntu-latin.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  /* Change the for specific design elements to Ubuntu */
+  h1, h2, h3, h4, body, input {
+    font-family: "Ubuntu", sans-serif !important;
+  }
+
+  #page-wrap {
+    font-family: "Ubuntu", sans-serif !important;
+  }
+
+  .m_hmenu_v2.cust4648 a:link, .m_hmenu_v2.cust4648 a:active, .m_hmenu_v2.cust4648 a:visited, .m_hmenu_v2.cust4648 a:hover, .m_hmenu_v2.cust4648 .dynamic-text {
+    font-family: "Ubuntu", sans-serif !important;
+  }
+
+  .element_button input, .element_button .button_block {
+    font-family: "Ubuntu", sans-serif !important;
+  }
+
+  .m_progression .raid .current-difficulty {
+    font-family: "Ubuntu", sans-serif !important;
+  }
+
+  standard_text {
+    font-family: "Ubuntu", sans-serif !important;
+    font-size: 15px;
+  }
+  </style>
+  <!-- END OF UBUNTU FONT -->
+
+  <!-- START OF FONT AWESOME STYLES -->
+  <style>
+  .fa,
+  .fas,
+  .far,
+  .fal,
+  .fad,
+  .fab {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+  }
+
+  .fab {
+    font-family: 'Font Awesome 5 Brands';
+  }
+
+  .fa,
+  .fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+  }
+
+  @font-face {
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: normal;
+    font-display: auto;
+    src: url("webfonts/fa-brands-400.eot");
+    src: url("webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("webfonts/fa-brands-400.woff2") format("woff2"), url("webfonts/fa-brands-400.woff") format("woff"), url("webfonts/fa-brands-400.ttf") format("truetype"), url("webfonts/fa-brands-400.svg#fontawesome") format("svg");
+  }
+
+  @font-face {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
+    src: url("webfonts/fa-regular-400.eot");
+    src: url("webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("webfonts/fa-regular-400.woff2") format("woff2"), url("webfonts/fa-regular-400.woff") format("woff"), url("webfonts/fa-regular-400.ttf") format("truetype"), url("webfonts/fa-regular-400.svg#fontawesome") format("svg");
+  }
+
+  @font-face {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 900;
+    font-display: auto;
+    src: url("webfonts/fa-solid-900.eot");
+    src: url("webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("webfonts/fa-solid-900.woff2") format("woff2"), url("webfonts/fa-solid-900.woff") format("woff"), url("webfonts/fa-solid-900.ttf") format("truetype"), url("webfonts/fa-solid-900.svg#fontawesome") format("svg");
+  }
+
+  /* Discord */
+  .fa-discord:before {
+    content: "\f392";
+  }
+
+  /* FFXIV Lodestone */
+  .fa-fire:before {
+    content: "\f06d";
+  }
+
+  /* Github */
+  .fa-github-square:before {
+    content: "\f092";
+  }
+
+  /* Steam */
+  .fa-steam:before {
+    content: "\f1b6";
+  }
+
+  /* WoW Armory */
+  .fa-battle-net:before {
+    content: "\f835";
+  }
+
+  /* YouTube */
+  .fa-youtube:before {
+    content: "\f167";
+  }
+  </style>
+  <!-- END OF FONT AWESOME STYLES -->
+</head>
+
+<body class="dark-theme fixed layout_load" data-dnsme-update-flag="">
+  <div class="body-wrap-2">
+    <div class="body-wrap-3">
+      <div id="page">
+        <div class="page-outer-left">
+        </div>
+
+        <div class="page-outer-right">
+        </div>
+
+        <div id="page-wrap">
+          <div class="fixed_height_elem" id="above-site">
+          </div>
+
+          <div id="site-body" style="margin-top: 0px;">
+            <div class="fixed_height_elem">
+              <table class="section-collection">
+                <tbody>
+                  <tr class="top">
+                    <td class="section-border">
+                      <div class="decorator-box">
+                      </div>
+                    </td>
+
+                    <td class="section-holder section-width-large" data-width="1030" id="section-header" style="">
+                      <div class="section">
+                        <div class=" container_spacer first">
+                          <div class="left">
+                          </div>
+
+                          <div class="right">
+                          </div>
+                        </div>
+
+                        <div class="clearing">
+                        </div>
+
+                        <div class=" first" data-container-id="61267147" data-start-collapsed="0">
+                          <div class=" container_header">
+                            <div class="left">
+                            </div>
+
+                            <div class="right">
+                            </div>
+                          </div>
+
+                          <div class="container_body">
+                            <div class="container_content container-minimized" style="display: none;">
+                            </div>
+
+                            <div class="container_content container-maximized">
+                              <table class="container_table">
+                                <tbody>
+                                  <tr class="container_table_row">
+                                    <td class="container_column leftmost rightmost" style="width: 100%">
+                                      <div class="module module_first module_last menu_mod_container">
+                                        <div class="module_content">
+                                          <div class="module_content_wrap">
+                                            <div class="m_hmenu_v2 cust4648">
+                                              <div class="outer-nav-border" style="content: &quot;fixed&quot;;">
+                                                <div class="menu-bg-left">
+                                                </div>
+
+                                                <div class="menu-bg-right">
+                                                </div>
+
+                                                <div class="first-level-items ul">
+                                                  <div class="auto-position-container">
+                                                    <div class="front-widgets widgets">
+                                                      <div class="each-menu-widget image-widget widg63568" data-id="63568" data-name="Image">
+                                                        <div class="img-container" style="position:relative; left:0px;">
+                                                          <a target="_self" class="widget-image" aria-label="Home" href="index.html" target="_self"><img alt="Pandamonium Logo" data-hover-src="" data-reg-src="images/pandamonium_small.png" data-speed="0" data-target="_self" src="images/pandamonium_small.png"></a>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+
+                                                    <div class="menu-margin-left">
+                                                    </div>
+
+                                                    <div class="gap">
+                                                      <span class="gap-l"></span>
+                                                      <span class="gap-r"></span>
+                                                    </div>
+
+                                                    <div class="dropdown">
+                                                      <div class="second-level-bridge" style="width: 75px;">
+                                                      </div>
+                                                      <button class="dropbtn">About<span class="dropdown-icon caret"></span></button>
+                                                      <div class="outer-sub-border">
+                                                        <div class="dropdown-content">
+                                                          <div class="li level-2" data-id="20027230">
+                                                          <a target="_self" href="charter.html">Charter</a>
+                                                          </div>
+                                                          <div class="li level-2" data-id="20027230">
+                                                          <a target="_self" href="history.html">History</a>
+                                                          </div>
+                                                          <div class="li level-2" data-id="20027230">
+                                                          <a target="_self" href="leadership.html">Leadership</a>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+
+                                                    <div class="gap">
+                                                      <span class="gap-l"></span>
+                                                      <span class="gap-r"></span>
+                                                    </div>
+
+                                                    <div class="gap">
+                                                      <span class="gap-l"></span>
+                                                      <span class="gap-r"></span>
+                                                    </div>
+
+                                                    <div class="dropdown">
+                                                      <button class="dropbtn"><a target="_self" href="official_teams.html">Official Teams</a><span class="dropdown-icon caret"></span></button>
+                                                      <div class="outer-sub-border">
+                                                      <div class="dropdown-content">
+                                                        <div class="li level-2" data-id="20027230">
+                                                        <a target="_self" href="chaos_fact.html">Chaos Fact (SWTOR)</a>
+                                                        </div>
+                                                        <div class="li level-2" data-id="20027230">
+                                                        <a target="_self" href="chaos_theory.html">Chaos Theory (SWTOR)</a>
+                                                        </div>
+                                                        <div class="li level-2" data-id="20027230">
+                                                        <a target="_self" href="crimson_nova.html">Crimson Nova (WoW)</a>
+                                                        </div>
+                                                        <div class="li level-2" data-id="20027230">
+                                                        <a target="_self" href="pandamic.html">Pandamic (FFXIV)</a>
+                                                        </div>
+                                                      </div>
+                                                      </div>
+                                                    </div>
+
+                                                    <div class="gap">
+                                                      <span class="gap-l"></span>
+                                                      <span class="gap-r"></span>
+                                                    </div>
+
+                                                    <div class="gap">
+                                                      <span class="gap-l"></span>
+                                                      <span class="gap-r"></span>
+                                                    </div>
+
+                                                    <div class="dropdown">
+                                                      <button class="dropbtn">Multimedia<span class="dropdown-icon caret"></span></button>
+                                                      <div class="outer-sub-border">
+                                                      <div class="dropdown-content">
+                                                          <div class="li level-2" data-id="20027230">
+                                                          <div class="li level-2" data-id="20027230">
+                                                          <a rel="noreferrer,external" target="_blank" href="https://www.designbyhumans.com/shop/pandamoniumguild/">Store</a>
+                                                          </div>
+                                                          <a target="_self" href="streaming_guidelines.html">Streaming Guidelines</a>
+                                                          </div>
+                                                          <div class="li level-2" data-id="20027230">
+                                                          <a rel="noreferrer,external" target="_blank" href="https://www.youtube.com/user/pandamoniumguild/playlists">Videos</a>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+
+                                                    <div class="gap">
+                                                      <span class="gap-l"></span> <span class="gap-r"></span>
+                                                    </div>
+
+                                                    <div class="dropdown">
+                                                      <button class="dropbtn"><a target="_self" href="faq.html">FAQ</a></button>
+                                                    </div>
+
+                                                    <div class="gap">
+                                                      <span class="gap-l"></span> <span class="gap-r"></span>
+                                                    </div>
+                                                    <div class="gap">
+                                                      <span class="gap-l"></span> <span class="gap-r"></span>
+                                                    </div>
+
+                                                    <div class="dropdown">
+                                                      <button class="dropbtn"><a target="_self" href="apply.html">Apply</a></button>
+                                                    </div>
+
+                                                    <div class="gap">
+                                                      <span class="gap-l"></span> <span class="gap-r"></span>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+
+
+                          <div class=" container_footer">
+                            <div class="left">
+                            </div>
+
+
+                            <div class="right">
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class=" container_spacer last">
+                          <div class="left">
+                          </div>
+
+
+                          <div class="right">
+                          </div>
+
+
+                          <div class="middle">
+                          </div>
+                        </div>
+
+
+                        <div class='clearing'>
+                        </div>
+
+			<br /><br /><br /><br />
+
+                      </div>
+                    </td>
+
+                    <td class="section-border">
+                      <div class="decorator-box">
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="special_container first">
+              <div class="m_html">
+                <style type="text/css">
+                .container {
+
+                width: 100% !important;
+
+                }
+
+                section#team-profile .team-info {
+
+                display: flex;
+                display: -webkit-flex;
+                height: 124px;
+                border-top: 1px solid #303039;
+                border-left: 1px solid #303039;
+
+                }
+
+                section#team-profile .team-info .game {
+
+                background-color: #0f0f15;
+                width: 292px;
+                height: 100%;
+                background-repeat: no-repeat;
+                background-position: center;
+                flex-shrink: 0;
+                -webkit-flex-shrink: 0;
+                background-size: 160px;
+
+                }
+
+                section#team-profile .team-info .profile-details {
+
+                padding-left: 15px;
+                padding-right: 15px;
+                display: -webkit-flex;
+                -webkit-align-items: center;
+                background: linear-gradient(to right, #1b1b22 0%, transparent 100%);
+                filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#1b1b22', endColorstr='#000000', GradientType=1);
+                border-left: 1px solid #303039;
+                border-right: 1px solid #303039;
+                width: 100%;
+
+                }
+
+                section#team-profile .team-info .profile-details figure img {
+
+                max-height: 49px;
+                width: auto;
+
+                }
+
+                section#team-profile .team-info .profile-details figure {
+
+                margin: 0 15px 0 0;
+                padding: 0;
+                border: 0;
+
+                }
+
+                section#team-profile .team-info .profile-details div.name {
+
+                -webkit-align-items: center;
+                height: 65px;
+                font-family: "Ubuntu", sans-serif;
+                font-size: 20px;
+                padding: 8px 8px 8px 28px;
+                border-left: 1px solid #46474c;
+                line-height: 1.42857143;
+                color: #ffffff;
+                }
+
+                section#team-profile .team-info .profile-details span.subtitle {
+
+                -webkit-align-items: center;
+                height: 65px;
+                font-family: "Ubuntu", sans-serif;
+                font-size: 14px;
+                line-height: 20px;
+                color:#fae387;
+                }
+
+                section#team-profile article.stats {
+
+                background-color: #1e1e26;
+                border: 1px solid #303039;
+                font-family: "Ubuntu", sans-serif;
+                display: flex;
+                display: -webkit-flex;
+                align-items: center;
+                -webkit-align-items: center;
+                height: 120px;
+                padding: 0 27px;
+
+                }
+
+                section#team-profile article.stats ul.left {
+
+                height: 62px;
+                margin-right: auto;
+
+                }
+
+                section#team-profile article.stats ul.left li.first {
+
+                position: relative;
+                padding-right: 54px;
+                margin-right: 22px;
+
+                }
+
+                section#team-profile article.stats ul li {
+
+                list-style: none;
+
+                }
+
+                section#team-profile article.stats ul.left li span.title {
+
+                font-family: "Ubuntu", sans-serif;
+                font-size: 14px;
+                text-transform: capitalize;
+                display: block;
+                margin-bottom: 6px;
+                color:#AFAFBC;
+
+                }
+
+                .teamstats {
+
+                font-family: "Ubuntu", sans-serif;
+                font-size: 16px;
+                color: #ffffff;
+                }
+
+
+                section#team-profile article.stats ul.center li span.title {
+
+                font-family: "Ubuntu", sans-serif;
+                font-size: 14px;
+                text-transform: capitalize;
+                display: block;
+                margin-bottom: 6px;
+                color:#AFAFBC;
+
+                }
+
+                section#team-profile article.stats ul.right li span.title {
+
+                font-family: "Ubuntu", sans-serif;
+                font-size: 14px;
+                text-transform: capitalize;
+                display: block;
+                margin-bottom: 6px;
+                color:#AFAFBC;
+
+                }
+
+                section#team-profile article.stats ul.center li span.subtitle i.flag-icon {
+
+                position: relative;
+                top: -2px;
+                margin-right: 5px;
+                font-size: 16px;
+
+                }
+
+                .flag-icon-us {
+
+                background-image: url(images/us_flag.PNG);
+
+                }
+
+                .flag-icon {
+
+                position: relative;
+                display: inline-block;
+                width: 1.33333333em;
+                line-height: 1em;
+
+                }
+
+                .flag-icon, .flag-icon-background {
+
+                background-size: contain;
+                background-position: 50%;
+                background-repeat: no-repeat;
+
+                }
+
+                section#team-profile article.stats ul.center {
+
+                height: 83px;
+                margin-left: auto;
+
+                }
+
+                section#team-profile article.stats ul.center li span.subtitle {
+
+                color: #fff;
+                font-size: 20px;
+                font-weight: 700;
+                text-transform: uppercase;
+
+                }
+
+                section#team-profile article.stats ul.right {
+
+                height: 83px;
+                margin-left: auto;
+
+                }
+
+                section#team-profile article.stats ul.right li span.subtitle {
+
+                color: #fff;
+                font-size: 20px;
+                font-weight: 700;
+                text-transform: uppercase;
+
+                }
+
+
+                section#team-profile article.stats ul.center li {
+
+                -webkit-align-items: center;
+                height: 65px;
+                font-family: "Ubuntu", sans-serif;
+                font-size: 20px;
+                padding: 8px 8px 8px 28px;
+                border-left: 1px solid #46474c;
+                line-height: 1.42857143;
+                color: #ffffff;
+                }
+
+                section#team-profile article.stats ul.right li {
+
+                -webkit-align-items: center;
+                height: 65px;
+                font-family: "Ubuntu", sans-serif;
+                font-size: 20px;
+                padding: 8px 8px 8px 28px;
+                border-left: 1px solid #46474c;
+                line-height: 1.42857143;
+                color: #ffffff;
+                }
+
+                section#team-profile article.stats {
+
+                background-color: #1e1e26;
+                border: 1px solid #303039;
+                font-family: ubuntu,sans-serif;
+                display: -webkit-flex;
+                -webkit-align-items: center;
+                height: 120px;
+                padding: 0 27px;
+
+                }
+
+                section#team-profile article.raidteam {
+
+                background-color: #1e1e26;
+                border: 1px solid #303039;
+                font-family: "Ubuntu", sans-serif;
+                display: flex;
+                display: -webkit-flex;
+                align-items: center;
+                -webkit-align-items: center;
+                height: 20px;
+                padding: 0 27px;
+
+                }
+                </style>
+
+                <section id="team-profile">
+                  <div class="container">
+                    <article class="raidteam">
+                      <div class="name">
+                        <h5 class="teamstats">OFFICIAL TEAM DETAILS</h5>
+                      </div>
+                    </article>
+
+
+                    <article class="team-info">
+                      <div class="game" style="background-image: url('images/pandamic_text.png');">
+                      </div>
+
+
+                      <div class="profile-details">
+                        <figure>
+                          <img alt="Pandamic Logo" src="images/pandamic_logo.png">
+                        </figure>
+
+
+                        <div class="name">
+                          <h4>Final Fantasy XIV: A Realm Reborn</h4>
+                          <span class="subtitle">2 Openings (<a target="_self" href="apply.html">Apply</a>)</span>
+                        </div>
+                      </div>
+                    </article>
+
+
+                    <article class="stats">
+                      <ul class="left">
+                        <li class="first">
+                          <span class="title">Team</span>
+
+                          <h5 class="teamstats">Progression <i aria-hidden="true" class="fas fa-arrow-down"></i></h5>
+                          &nbsp; &nbsp; <i>Eden:</i> 2/4 Savage
+                        </li>
+                      </ul>
+
+
+                      <ul class="center">
+                        <li>
+                          <span class="title">Team Leader</span>
+
+                          <h5 class="teamstats">Birmingham London</h5>
+                        </li>
+                      </ul>
+
+
+                      <ul class="center">
+                        <li>
+                          <span class="title">Schedule</span>
+
+                          <h5 class="teamstats">Tue and Wed 10:30pm-1am EST</h5>
+                        </li>
+                      </ul>
+
+
+                      <ul class="center">
+                        <li>
+                          <span class="title">Country</span>
+
+                          <h5 class="teamstats"><img alt="US Flag" height="12" src="images/us_flag.PNG"> UNITED STATES</h5>
+                        </li>
+                      </ul>
+
+
+                      <ul class="right">
+                        <li>
+                          <span class="title">Founded</span>
+
+                          <h5 class="teamstats"><i class="far fa-clock"></i> 2019</h5>
+                        </li>
+                      </ul>
+                    </article>
+                  </div>
+                </section>
+              </div>
+            </div>
+
+
+            <div class="fixed_height_elem container_spacer">
+              <div class="left">
+              </div>
+
+
+              <div class="right">
+              </div>
+            </div>
+
+
+            <div class="clearing">
+            </div>
+
+
+            <div class="container last" data-container-id="61001598" data-start-collapsed="0">
+              <div class="fixed_height_elem container_header">
+                <div class="left">
+                </div>
+
+
+                <div class="right">
+                </div>
+              </div>
+
+
+              <div class="container_body">
+                <div class="container_left">
+                </div>
+
+
+                <div class="container_right">
+                </div>
+
+
+                <div class="container_left_top">
+                </div>
+
+
+                <div class="container_right_top">
+                </div>
+
+
+                <div class="container_left_bottom">
+                </div>
+
+
+                <div class="container_right_bottom">
+                </div>
+
+
+                <div class="container_content container-minimized" style="display: none;">
+                </div>
+
+
+                <div class="container_content container-maximized">
+                  <div class="container_inner_l">
+                  </div>
+
+
+                  <div class="container_inner_r">
+                  </div>
+
+
+                  <div class="container_inner_tl">
+                  </div>
+
+
+                  <div class="container_inner_tr">
+                  </div>
+
+
+                  <div class="container_inner_bl">
+                  </div>
+
+
+                  <div class="container_inner_br">
+                  </div>
+
+
+                  <table class="container_table">
+                    <tbody>
+                      <tr class="container_table_row">
+                        <td class="container_column leftmost rightmost" style="width: 100%">
+                          <div class="module module_first module_last">
+                            <div class="module_content">
+                              <div class="module_content_wrap">
+                                <div class="m_members 50641267">
+                                  <div class="header">
+                                    <div class="search">
+                                    </div>
+
+
+                                    <div class="filter" style="margin-right: 22px;">
+                                    </div>
+                                  </div>
+
+
+                                  <div class="content roster">
+
+                                    <div class="user large" align="center">
+                                      <div class="element_avatar simple large">
+                                        <a data-minitooltip="Birmingham London" rel="noreferrer,external" target="_blank" https://na.finalfantasyxiv.com/lodestone/character/1172488/"><img alt="Birmingham London" height="73" onerror="this.src='images/no_avatar.png';" src="images/birmingham_london_avatar.jpg" width="73"></a>
+                                      </div>
+
+
+                                      <div>
+                                        <a rel="noreferrer,external" target="_blank" href="https://na.finalfantasyxiv.com/lodestone/character/1172488/" title="Birmingham London"><span class="class-wow-rogue">Birmingham London</span></a>
+                                      </div>
+                                    </div>
+
+
+                                    <div class="user large" align="center">
+                                      <div class="element_avatar simple large">
+                                        <a data-minitooltip="Brahn Greinborg" rel="noreferrer,external" target="_blank" https://na.finalfantasyxiv.com/lodestone/character/16830070/"><img alt="Brahn Greinborg" height="73" onerror="this.src='images/no_avatar.png';" src="images/brahn_greinborg_avatar.jpg" width="73"></a>
+                                      </div>
+
+
+                                      <div>
+                                        <a rel="noreferrer,external" target="_blank" href="https://na.finalfantasyxiv.com/lodestone/character/16830070/" title="Brahn Greinborg"><span class="class-wow-rogue">Brahn Greinborg</span></a>
+                                      </div>
+                                    </div>
+
+
+                                    <div class="user large" align="center">
+                                      <div class="element_avatar simple large">
+                                        <a data-minitooltip="Caneletto Baersyn" rel="noreferrer,external" target="_blank" https://na.finalfantasyxiv.com/lodestone/character/6732910/"><img alt="Caneletto Baersyn" height="73" onerror="this.src='images/no_avatar.png';" src="images/caneletto_baersyn_avatar.jpg" width="73"></a>
+                                      </div>
+
+
+                                      <div>
+                                        <a rel="noreferrer,external" target="_blank" href="https://na.finalfantasyxiv.com/lodestone/character/6732910/" title="Caneletto Baersyn"><span class="class-wow-rogue">Caneletto Baersyn</span></a>
+                                      </div>
+                                    </div>
+
+
+                                    <div class="user large" align="center">
+                                      <div class="element_avatar simple large">
+                                        <a data-minitooltip="Kerrrn Balerion" rel="noreferrer,external" target="_blank" https://na.finalfantasyxiv.com/lodestone/character/15608325/"><img alt="Kerrrn Balerion" height="73" onerror="this.src='images/no_avatar.png';" src="images/kerrrn_balerion_avatar.jpg" width="73"></a>
+                                      </div>
+
+
+                                      <div>
+                                        <a rel="noreferrer,external" target="_blank" href="https://na.finalfantasyxiv.com/lodestone/character/15608325/" title="Kerrrn Balerion"><span class="class-wow-rogue">Kerrrn Balerion</span></a>
+                                      </div>
+                                    </div>
+
+                                    <div class="user large" align="center">
+                                      <div class="element_avatar simple large">
+                                        <a data-minitooltip="Makaniko Roroniko" rel="noreferrer,external" target="_blank" https://na.finalfantasyxiv.com/lodestone/character/18639471/"><img alt="Makaniko Roroniko" height="73" onerror="this.src='images/no_avatar.png';" src="images/makaniko_roroniko_avatar.jpg" width="73"></a>
+                                      </div>
+
+
+                                      <div>
+                                        <a rel="noreferrer,external" target="_blank" href="https://na.finalfantasyxiv.com/lodestone/character/18639471/" title="Makaniko Roroniko"><span class="class-wow-rogue">Makaniko Roroniko</span></a>
+                                      </div>
+                                    </div>
+
+
+                                    <div class="user large" align="center">
+                                      <div class="element_avatar simple large">
+                                        <a data-minitooltip="Nevyn Essylt" rel="noreferrer,external" target="_blank" https://na.finalfantasyxiv.com/lodestone/character/1172541/"><img alt="Nevyn Essylt" height="73" onerror="this.src='images/no_avatar.png';" src="images/nevyn_essylt_avatar.jpg" width="73"></a>
+                                      </div>
+
+
+                                      <div>
+                                        <a rel="noreferrer,external" target="_blank" href="https://na.finalfantasyxiv.com/lodestone/character/1172541/" title="Nevyn Essylt"><span class="class-wow-rogue">Nevyn Essylt</span></a>
+                                      </div>
+                                    </div>
+
+
+                                    <div class="right page-widget" style="margin-right: 22px; display: none;">
+                                      <div class="element_pagewidget" style="visibility: hidden;">
+                                        <span class="text rightmost">Page&nbsp;<span class="page-number">1</span>&nbsp;of <span class="total">1</span></span>
+
+                                        <div class="element_button">
+                                          <div class="l">
+                                            <!-- -->
+                                          </div>
+
+
+                                          <div class="r">
+                                            <!-- -->
+                                          </div>
+                                          <input type="button" value="&lt;">
+                                        </div>
+
+
+                                        <div class="element_button">
+                                          <div class="l">
+                                            <!-- -->
+                                          </div>
+
+
+                                          <div class="r">
+                                            <!-- -->
+                                          </div>
+                                          <input type="button" value="&gt;">
+                                        </div>
+                                      </div>
+                                    </div>
+
+
+                                    <div class="clearing">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+
+              <div class="fixed_height_elem container_footer">
+                <div class="left">
+                </div>
+
+
+                <div class="right">
+                </div>
+              </div>
+            </div>
+
+
+            <div class="fixed_height_elem container_spacer last">
+              <div class="left">
+              </div>
+
+
+              <div class="right">
+              </div>
+
+
+              <div class="middle">
+              </div>
+            </div>
+
+
+            <div class='clearing'>
+            </div>
+          </div>
+
+
+          <table>
+            <tr>
+              <td class="section-border">
+                <div class="decorator-box">
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+
+        <div class="fixed_height_elem">
+          <table class="section-collection">
+            <tr class="top">
+              <td class="section-border">
+                <div class="decorator-box">
+                </div>
+              </td>
+
+              <td class="section-holder section-width-large" data-width="1030" id="section-footer" style="">
+                <div class="section">
+                  <div class=" container_spacer first">
+                    <div class="left">
+                    </div>
+
+
+                    <div class="right">
+                    </div>
+                  </div>
+
+
+                  <div class='clearing'>
+                  </div>
+
+
+                  <div class="container first last" data-container-id="57107210" data-start-collapsed="0">
+                    <div class=" container_header">
+                      <div class="left">
+                      </div>
+
+
+                      <div class="right">
+                      </div>
+                    </div>
+
+
+                    <div class="container_body">
+                      <div class="container_left">
+                      </div>
+
+
+                      <div class="container_right">
+                      </div>
+
+
+                      <div class="container_left_top">
+                      </div>
+
+
+                      <div class="container_right_top">
+                      </div>
+
+
+                      <div class="container_left_bottom">
+                      </div>
+
+
+                      <div class="container_right_bottom">
+                      </div>
+
+
+                      <div class="container_content container-minimized" style="display: none;">
+                      </div>
+
+
+                      <div class="container_content container-maximized">
+                        <div class="container_inner_l">
+                        </div>
+
+
+                        <div class="container_inner_r">
+                        </div>
+
+
+                        <div class="container_inner_tl">
+                        </div>
+
+
+                        <div class="container_inner_tr">
+                        </div>
+
+
+                        <div class="container_inner_bl">
+                        </div>
+
+
+                        <div class="container_inner_br">
+                        </div>
+
+
+                        <table class="container_table">
+                          <tr class="container_table_row">
+                            <td class="container_column leftmost rightmost" style="width: 100%">
+                              <div class="module module_first module_last">
+                                <div class="module_content">
+                                  <div class="module_content_wrap">
+                                    <div class='m_html'>
+                                      <style type="text/css">
+                                      .footer_block {
+                                      background-color: #0c0c0c;
+                                      position:relative;
+                                      border-top:1px solid #fabb0b;
+                                      opacity:0;
+                                      }
+
+                                      .footer_inner {
+                                      width: 1080px;
+                                      margin-left: auto;
+                                      margin-right: auto;
+                                      }
+                                      .layout_load .footer_block{
+                                      opacity:1;
+                                      }
+
+                                      .footer_column {
+                                      width: 33.3%;
+                                      float: left;
+                                      }
+
+                                      .footer_column:after {
+                                      content: "";
+                                      display: table;
+                                      clear: both;
+                                      }
+
+                                      .footer_column_inner {
+                                      padding: 10px;
+                                      margin-left: 10px;
+                                      margin-right: 10px;
+                                      }
+
+                                      .footer_column h2 {
+                                      color: #fff;
+                                      font-size: 22px;
+                                      }
+
+                                      .footer_logo {
+                                      width: 230px;
+                                      display: block;
+                                      margin-left: auto;
+                                      margin-right: auto;
+                                      }
+
+                                      .foot_left a {
+                                      opacity: 0.8;
+                                      }
+
+                                      .foot_left a:hover {
+                                      opacity: 1;
+                                      }
+
+
+
+                                      .foot_left {
+                                      text-align: left;
+                                      }
+
+                                      .foot_right {
+
+                                      }
+
+                                      .foot_right .drodpown {
+                                      position: relative;
+                                      }
+
+                                      #page .foot_right .dropdown-menu {
+                                      bottom: 100%;
+                                      right: 0;
+                                      left: inherit;
+                                      top: inherit;
+                                      text-align: center;
+                                      }
+
+                                      .foot_right span,.foot_right a {
+                                      vertical-align: middle;
+                                      display: block;
+                                      margin-bottom: 5px;
+                                      font-size: 14px;
+                                      }
+
+                                      .foot_right a {
+                                      display: inline-block;
+                                      }
+
+                                      #page #section-footer .foot_right .caret {
+                                      border-top-color: #fabb0b;
+                                      }
+
+                                      #page #section-footer .foot_right .open .caret,#page #section-footer .foot_right a:hover .caret {
+                                      border-top-color: #428fc2;
+                                      color: #428fc2 !important;
+                                      }
+
+                                      .copyright {
+                                      padding: 0px;
+                                      color: #aaa;
+                                      box-sizing: border-box;
+                                      margin-left: auto;
+                                      margin-right: auto;
+                                      line-height:18px;
+                                      font-size:10px;
+                                      letter-spacing: 1px;
+                                      }
+
+                                      .insert_links {
+                                      font-size:18px;
+                                      line-height:20px;
+
+                                      }
+                                      .foot_right .footer_column_inner{
+
+                                      }
+                                      .footer_header{
+                                      color:#FAE534;
+                                      padding:10px;
+                                      margin-left:10px;
+                                      margin-right:10px;
+                                      margin-top:10px;
+                                      text-align:left;
+                                      font-size:14px;
+                                      font-weight: 800;
+                                      text-transform: uppercase;
+                                      letter-spacing: 2px;
+                                      }
+                                      .social_insert>li{
+                                      display:inline-block;
+                                      }
+                                      .social_insert li a{
+                                      width:60px;
+                                      line-height:60px;
+                                      background:#222 !important;
+                                      text-align:center;
+                                      display:inline-block;
+                                      font-size:18px;
+                                      margin-bottom:3px;
+                                      margin-right:3px;
+                                      }
+                                      .social_insert li a:hover{
+
+                                      color:#fff !important;
+                                      }
+                                      .about{
+                                      line-height:20px;
+                                      }
+                                      .logo img{
+                                      display:block;
+                                      width: 200px;
+                                      margin-left: auto;
+                                      margin-right: auto; 
+                                      }
+                                      .footer_block .like_insert{
+                                      display:none;
+                                      }
+                                      .socials {
+                                      float: center;
+                                      margin-top: 2px;
+                                      margin-bottom: -2px;
+                                      }
+                                      .socials a {
+                                      font-size: 18px;
+                                      margin-right: 3px;
+                                      width: 30px;
+                                      line-height: 30px;
+                                      text-align: center;
+                                      border: 1px solid #666;
+                                      display: inline-block;
+                                      color: #666;
+                                      transition: color .25s;
+                                      }
+                                      .fab:hover {
+                                      color:#FAE534;
+                                      }
+                                      .fas:hover {
+                                      color:#FAE534;
+                                      }
+                                      </style>
+
+                                      <table border="0" class="section-collection">
+                                        <tbody>
+                                          <tr class="top">
+                                            <td valign="top" width="100%">
+                                              <div class="footer_column_inner">
+                                                <center>
+                                                  <a target="_self" class="logo" aria-label="Home" href="index.html"><img alt="Pandamonium Logo" src="images/panda_logo_200.png" width="200"></a>
+                                                </center>
+
+
+                                                <div class="footer_column_inner">
+                                                      <center>
+                                                        <span class="socials"><a rel="noreferrer,external" target="_blank" aria-label="Discord" href="https://discord.gg/AbRtyr5" title="Discord"><i class="fab fa-discord"></i></a> <a rel="noreferrer,external" target="_blank" aria-label="FFXIV Lodestone" href="https://na.finalfantasyxiv.com/lodestone/freecompany/9232379236109589336/member/?gcid=&gcid=&gcid=&gcid=&order=3" title="FFXIV Lodestone"><i class="fas fa-fire"></i></a> <a rel="noreferrer,external" target="_blank" aria-label="GitHub" href="https://github.com/pandaMMO" title="GitHub"><i class="fab fa-github-square"></i></a> <a rel="noreferrer,external" target="_blank" aria-label="Steam" href="https://steamcommunity.com/groups/PandamoniumMMO" title="Steam"><i class="fab fa-steam"></i></a> <a rel="noreferrer,external" target="_blank" aria-label="WoW Armory" href="https://worldofwarcraft.com/en-us/guild/us/zuljin/pandamonium" title="WoW Armory"><i class="fab fa-battle-net"></i></a> <a rel="noreferrer,external" target="_blank" aria-label="YouTube" href="https://www.youtube.com/user/pandamoniumguild" title="YouTube"><i class="fab fa-youtube"></i></a></span>
+                                                      </center>
+                                                    </div>
+
+                                                    <center>
+                                                      <span class="copyright">© 2004-2019 Pandamonium | All Rights Reserved.</span><br>
+                                                      <span class="copyright"><a target="_self" href="privacy.html">Privacy Statement</a></span>
+                                                    </center>
+                                              </div>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+
+
+                    <div class=" container_footer">
+                      <div class="left">
+                      </div>
+
+
+                      <div class="right">
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class=" container_spacer last">
+                    <div class="left">
+                    </div>
+
+
+                    <div class="right">
+                    </div>
+
+
+                    <div class="middle">
+                    </div>
+                  </div>
+
+
+                  <div class="clearing">
+                  </div>
+                </div>
+              </td>
+
+              <td class="section-border">
+                <div class="decorator-box">
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
