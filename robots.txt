@@ -3,3 +3,4 @@ Disallow: /css/
 Disallow: /fonts/
 Disallow: /images/
 Disallow: /webfonts/
+Disallow: /application.html
