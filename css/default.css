@@ -131,6 +131,16 @@ body {}
 	height: 100%
 }
 
+.tab {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.tab_wide {
+    display: inline-block;
+    margin-left: 33px;
+}
+
 .clearing {
 	clear: both
 }
