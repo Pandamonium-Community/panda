@@ -3,7 +3,7 @@
 # Credits
 
 	Designer:
-		Kaisa Connor (Discord Kaisa#0265)
+		Kaisa Connor (Discord Username: kaisa | Discord User ID: 204970523518566400)
 
 	Web Font Icons:
 		Font Awesome Free 5.11.2 by OpenJS Foundation (fontawesome.com/license/free)
